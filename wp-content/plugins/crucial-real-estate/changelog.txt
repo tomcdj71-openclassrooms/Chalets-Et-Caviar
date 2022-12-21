@@ -1,0 +1,16 @@
+== Changelog ==
+
+= 1.0.3 - November 28 2022 =
+* Fixed capability queries were only introduced in WP 5.9 for the users.
+* Update metabox library.
+
+= 1.0.2 - December 29 2021 =
+* Added compatibility for Aarambha Real Estate theme.
+* Tweak in property price.
+
+= 1.0.1 - October 9 2021 =
+* Fix keyboard navigation for property social share
+* Added link in property status and types tags
+
+= 1.0.0 - September 22 2021 =
+* Initial release

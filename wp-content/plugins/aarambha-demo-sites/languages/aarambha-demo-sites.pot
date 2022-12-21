@@ -1,0 +1,365 @@
+# Copyright (C) 2022 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2022-04-04 07:42:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: inc/main/class-aarambha-ds.php:113 inc/main/class-aarambha-ds.php:124
+#: inc/main/classes/class-aarambha-ds-ajax.php:88
+#: inc/main/classes/class-aarambha-ds-ajax.php:103
+#: inc/main/classes/class-aarambha-ds-api.php:84
+#: inc/main/classes/class-aarambha-ds-api.php:99
+#: inc/main/classes/class-aarambha-ds-core.php:95
+#: inc/main/classes/class-aarambha-ds-core.php:110
+#: inc/main/classes/class-aarambha-ds-plugins.php:87
+#: inc/main/classes/class-aarambha-ds-plugins.php:102
+#: inc/main/ui/class-aarambha-ds-admin.php:86
+#: inc/main/ui/class-aarambha-ds-admin.php:101
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/main/class-aarambha-ds.php:140 inc/main/class-aarambha-ds.php:141
+#: inc/views/body.php:113
+msgid "Import Demo"
+msgstr ""
+
+#: inc/main/class-aarambha-ds.php:235
+msgid ""
+"<p>You need to have one of the themes from <a href=\"%1$s\" "
+"target=\"_blank\">%2$s</a> installed, to use <strong>%3$s</strong> "
+"plugin</p>"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-ajax.php:163
+#: inc/main/classes/class-aarambha-ds-ajax.php:213
+#: inc/main/classes/class-aarambha-ds-ajax.php:238
+#: inc/main/classes/class-aarambha-ds-ajax.php:265
+#: inc/main/classes/class-aarambha-ds-ajax.php:278
+#: inc/main/classes/class-aarambha-ds-ajax.php:316
+#: inc/main/classes/class-aarambha-ds-ajax.php:349
+#: inc/main/classes/class-aarambha-ds-ajax.php:386
+#: inc/main/classes/class-aarambha-ds-ajax.php:406
+#: inc/main/classes/class-aarambha-ds-ajax.php:461
+#: inc/main/classes/class-aarambha-ds-ajax.php:529
+#: inc/main/classes/class-aarambha-ds-ajax.php:578
+#: inc/main/classes/class-aarambha-ds-ajax.php:633
+#: inc/main/classes/class-aarambha-ds-ajax.php:676
+#: inc/main/classes/class-aarambha-ds-ajax.php:767
+#: inc/main/ui/class-aarambha-ds-admin.php:268
+msgid "Sorry!"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-ajax.php:164
+#: inc/main/classes/class-aarambha-ds-ajax.php:214
+#: inc/main/classes/class-aarambha-ds-ajax.php:239
+#: inc/main/classes/class-aarambha-ds-ajax.php:266
+#: inc/main/classes/class-aarambha-ds-ajax.php:279
+#: inc/main/classes/class-aarambha-ds-ajax.php:317
+#: inc/main/classes/class-aarambha-ds-ajax.php:350
+#: inc/main/classes/class-aarambha-ds-ajax.php:387
+#: inc/main/classes/class-aarambha-ds-ajax.php:407
+#: inc/main/classes/class-aarambha-ds-ajax.php:462
+#: inc/main/classes/class-aarambha-ds-ajax.php:530
+#: inc/main/classes/class-aarambha-ds-ajax.php:579
+#: inc/main/classes/class-aarambha-ds-ajax.php:634
+#: inc/main/classes/class-aarambha-ds-ajax.php:677
+#: inc/main/classes/class-aarambha-ds-ajax.php:768
+msgid "This action cannot be performed now. Please try again later!"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-api.php:169
+msgid "An unknown API error occurred."
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-api.php:180
+msgid "No data received. May be data is malformed."
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-core.php:301
+msgid "Importing Options"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-core.php:398
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-core.php:441
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-core.php:464
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-core.php:502
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-core.php:577
+msgid "Imported"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-core.php:580
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-core.php:586
+msgid "No Title"
+msgstr ""
+
+#: inc/main/classes/class-aarambha-ds-plugins.php:395
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:140
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:490
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:653
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:996
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:1723
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:1732
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:1784
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:1797
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:1802
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:1808
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:1978
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:1988
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:1998
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:2006
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:2020
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:2039
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: inc/main/classes/importer/class-wxr-importer.php:2049
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:259
+msgid "You're Offline!"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:260
+msgid "Purchase Now"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:261
+msgid "Preview"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:262
+msgid "Please Wait!"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:263
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:264
+msgid "Import Content"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:265
+msgid "Installing &#8230;"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:266
+msgid "Activating &#8230;"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:267 inc/views/plugins-list.php:32
+#: inc/views/plugins-list.php:73
+msgid "Active"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:270
+msgid "We cannot import now. Please try again later!"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:274
+msgid "Refresh the page, and try again!"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:278
+msgid "Importing Content&#8230;"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:282
+msgid "Importing Customize Information &#8230;"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:286
+msgid "Importing Widgets &#8230;"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:290
+msgid "Importing Slider &#8230;"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:294
+msgid "Something Went Wrong!"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:298
+msgid "Preparing to import &#8230;"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:302
+msgid "Setting Menus &#8230;"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:306
+msgid "Setting Pages &#8230;"
+msgstr ""
+
+#: inc/main/ui/class-aarambha-ds-admin.php:310
+msgid "Finalizing the Import &#8230;"
+msgstr ""
+
+#: inc/views/body.php:7
+msgid "Cache successfully cleared."
+msgstr ""
+
+#: inc/views/body.php:38
+msgid "All"
+msgstr ""
+
+#: inc/views/body.php:104
+msgid "Pro"
+msgstr ""
+
+#: inc/views/body.php:131
+msgid "No demos found for theme. Please try again later."
+msgstr ""
+
+#: inc/views/complete.php:14
+msgid "Import Complete"
+msgstr ""
+
+#: inc/views/complete.php:19
+msgid "View Demo"
+msgstr ""
+
+#: inc/views/complete.php:23
+msgid "Customize"
+msgstr ""
+
+#: inc/views/complete.php:29
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/views/import.php:3
+msgid "What would you like to import?"
+msgstr ""
+
+#: inc/views/import.php:12
+msgid "Complete Demo"
+msgstr ""
+
+#: inc/views/import.php:21
+msgid "We suggest you to import Complete Demo."
+msgstr ""
+
+#: inc/views/importing.php:6
+msgid "Please wait while the content is being imported!"
+msgstr ""
+
+#: inc/views/importing.php:12
+msgid ""
+"Please wait while the demo site is being installed.This process may take "
+"upto 10 minutes to complete. Please do not refresh or close this page."
+msgstr ""
+
+#: inc/views/plugins-list.php:2
+msgid "Required plugins for this demo."
+msgstr ""
+
+#: inc/views/plugins-list.php:4
+msgid "The following plugins are required to be installed for this demo:"
+msgstr ""
+
+#: inc/views/plugins-list.php:19 inc/views/plugins-list.php:60
+msgid "Ready to Install"
+msgstr ""
+
+#: inc/views/plugins-list.php:29 inc/views/plugins-list.php:70
+msgid "Activate"
+msgstr ""
+
+#: inc/views/popups/activate-theme.php:9
+msgid "Thank you for purchasing our super cool product. Wish you all the success."
+msgstr ""
+
+#: inc/views/popups/purchase-theme.php:9
+msgid ""
+"Thank you for being our valued customer. Your support and trust are much "
+"appreciated."
+msgstr ""
+
+#: inc/views/popups/purchase-theme.php:10
+msgid "To access all Premium Demos / Templates, please Upgrade to Pro."
+msgstr ""

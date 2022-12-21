@@ -8444,3 +8444,21 @@ function wp_recursive_ksort( &$array ) {
 	}
 	ksort( $array );
 }
+
+function load_custom_js() {
+    ?>
+        <script>
+          for(var words=[["Address","Addresse"],["Main Detail","Caract\xe9ristiques principales"],["bedroom","Chambre"],["bathroom","Salle de bain"],["garage","Garage"],["Others Detail","Autres caract\xe9ristiques"],["Price","Prix"],["Gallery","Galerie"],],i=0;i<words.length;i++)for(var word=words[i],elements=document.querySelectorAll("body *"),j=0;j<elements.length;j++){var e,r=elements[j],a=r.innerHTML.replace(word[0],word[1]);r.innerHTML=a}
+        </script>
+    <?php
+}
+add_action('wp_footer', 'load_custom_js');
+
+function translate_admin_items() {
+	?>
+		<script>
+			for(var words=[["Saved Templates", "Modèles Enregistrés"],["Theme Builder", "Créateur de Thème"],["Landing Pages", "Pages Principales"],["Kit Library", "Bibliothèque de Kits"],["Popups", "Popups"],["Add New", "Ajouter Nouveau"],["Contact Forms", "Formulaires de Contact"],["Integrations", "Intégrations"],["Increase Uploading Limits", "Augmenter les Limites de Téléchargement"],["All Properties", "Toutes les propriétés"],["New Property", "Nouvelle Propriété"],["Property Features", "Caractéristiques"],["Property Type", "Types"],["Property Status", "Statuts"],["Property Locations", "Emplacements"],["Settings","Param\xe8tres"],["Role Manager","Gestion des r\xf4les"],["Tools","Outils"],["System Info","Informations syst\xe8me"],["Getting Started","D\xe9marrage"],["Get Help","Obtenir de l'aide"],["Submissions","Soumissions"],["Custom Fonts","Polices Perso."],["Custom Code","Code Perso."],["Custom Icons","Ic\xf4nes Perso."],["Upgrade","Mise \xe0 niveau"],],i=0;i<words.length;i++)for(var word=words[i],elements=document.querySelectorAll("body *"),j=0;j<elements.length;j++){var e,r=elements[j],a=r.innerHTML.replace(word[0],word[1]);r.innerHTML=a}
+		</script>
+	<?php
+}
+add_action('admin_footer', 'translate_admin_items');
