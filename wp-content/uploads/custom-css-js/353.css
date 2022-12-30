@@ -189,7 +189,8 @@
 }
 
 .site-navigation ul.menu li ul {
-    background-color: #F3F5F8 !important;
+	background-color: #F3F5F8 !important;
+	z-index: 999;
 }
 
 div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progress-fill {
@@ -240,5 +241,40 @@ div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progre
     background-color: #139C49;
     border-color: #139C49;
 }
-</style>
+
+.property-template-default .related-post-section .post .entry-title, .post-wrapper .post .entry-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.property-template-default .related-post-section .post-tags, .post-wrapper .post-tags {
+  padding: 7px 7px;
+  font-size: 10px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.property-template-default .related-post-section .post-tags-wrap, .post-wrapper .post-tags-wrap {
+  top: 5px;
+}
+
+@media (max-width:992px) {
+	.post-wrapper .post .entry-title {
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+	}
+}
+
+@media (max-width:576px) {
+	.post-detail-wrap .property-meta-info {
+		margin-bottom: 0;
+		margin-top: 80px;
+	}
+}
+
+@media (max-width:992px) {
+	.post-detail-wrap .property-meta-info {
+		margin-bottom: 0;
+		margin-top: 50px;
+	}
+}</style>
 <!-- end Simple Custom CSS and JS -->

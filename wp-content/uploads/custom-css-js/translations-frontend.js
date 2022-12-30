@@ -22,15 +22,15 @@ var translate = {
     "Learn more": "Lire plus",
 };
 
-// if there's a span with class "cre-Prix" then add a space between the Prix and the currency symbol (€) and after the currency symbol
-const priceElements = document.getElementsByClassName('cre-price');
-for (let i = 0; i < priceElements.length; i++) {
-    const priceElements = priceElements[i];
-    // Add a space after the currency symbol
-    priceElements.innerHTML = priceElements.innerHTML.replace(/(€)/g, '$1 ');
-}
 // Wait for the page to load
 window.addEventListener('load', function () {
+	// if there's a span with class "cre-Prix" then add a space between the Prix and the currency symbol (€) and after the currency symbol
+	const priceElements = document.getElementsByClassName('cre-price');
+	for (let i = 0; i < priceElements.length; i++) {
+		const priceElements = priceElements[i];
+		// Add a space after the currency symbol
+		priceElements.innerHTML = priceElements.innerHTML.replace(/(€)/g, '$1 ');
+	}
     for (const [key, value] of Object.entries(translate)) {
         const caseInsensitiveKey = new RegExp(key, 'gi');
         // Find all elements that contain the word. Everything is at least in the body

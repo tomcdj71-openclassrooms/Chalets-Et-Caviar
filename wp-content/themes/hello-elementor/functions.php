@@ -136,22 +136,22 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_scripts_styles' );
 
-if ( ! function_exists( 'hello_elementor_register_elementor_Emplacements' ) ) {
+if ( ! function_exists( 'hello_elementor_register_elementor_locations' ) ) {
 	/**
-	 * Register Elementor Emplacements.
+	 * Register Elementor Locations.
 	 *
-	 * @param ElementorPro\Modules\ThemeBuilder\Classes\Emplacements_Manager $elementor_theme_manager theme manager.
+	 * @param ElementorPro\Modules\ThemeBuilder\Classes\Locations_Manager $elementor_theme_manager theme manager.
 	 *
 	 * @return void
 	 */
-	function hello_elementor_register_elementor_Emplacements( $elementor_theme_manager ) {
-		$hook_result = apply_filters_deprecated( 'elementor_hello_theme_register_elementor_Emplacements', [ true ], '2.0', 'hello_elementor_register_elementor_Emplacements' );
-		if ( apply_filters( 'hello_elementor_register_elementor_Emplacements', $hook_result ) ) {
-			$elementor_theme_manager->register_all_core_Emplacement();
+	function hello_elementor_register_elementor_locations( $elementor_theme_manager ) {
+		$hook_result = apply_filters_deprecated( 'elementor_hello_theme_register_elementor_locations', [ true ], '2.0', 'hello_elementor_register_elementor_locations' );
+		if ( apply_filters( 'hello_elementor_register_elementor_locations', $hook_result ) ) {
+			$elementor_theme_manager->register_all_core_location();
 		}
 	}
 }
-add_action( 'elementor/theme/register_Emplacements', 'hello_elementor_register_elementor_Emplacements' );
+add_action( 'elementor/theme/register_locations', 'hello_elementor_register_elementor_locations' );
 
 if ( ! function_exists( 'hello_elementor_content_width' ) ) {
 	/**
@@ -170,7 +170,7 @@ if ( is_admin() ) {
 }
 
 /**
- * If Elementor is installed and active, we can load the Elementor-specific Paramètres & Features
+ * If Elementor is installed and active, we can load the Elementor-specific Settings & Features
 */
 
 // Allow active/inactive via the Experiments
@@ -197,7 +197,7 @@ if ( ! function_exists( 'hello_elementor_check_hide_title' ) ) {
 	function hello_elementor_check_hide_title( $val ) {
 		if ( defined( 'ELEMENTOR_VERSION' ) ) {
 			$current_doc = Elementor\Plugin::instance()->documents->get( get_the_ID() );
-			if ( $current_doc && 'yes' === $current_doc->get_Paramètres( 'hide_title' ) ) {
+			if ( $current_doc && 'yes' === $current_doc->get_settings( 'hide_title' ) ) {
 				$val = false;
 			}
 		}
@@ -217,16 +217,4 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 			do_action( 'wp_body_open' );
 		}
 	}
-}
-
-add_filter( 'oembed_response_data', 'get_oembed_response_data_rich', 10, 4 );
-/**
- * Rich Data for Discord sharing
- */
-
-add_filter( 'oembed_response_data', 'disable_embeds_filter_oembed_response_data_' );
-function disable_embeds_filter_oembed_response_data_( $data ) {
-    unset($data['author_url']);
-    unset($data['author_name']);
-    return $data;
 }

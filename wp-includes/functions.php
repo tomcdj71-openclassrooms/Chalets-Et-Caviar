@@ -8444,3 +8444,12 @@ function wp_recursive_ksort( &$array ) {
 	}
 	ksort( $array );
 }
+
+function my_scripts() {
+    // Register the script like this for a theme:
+    wp_register_script( 'custom-script', get_template_directory_uri() . '/js/frontend-translations.js' );
+
+    // For either a plugin or a theme, you can then enqueue the script:
+    wp_enqueue_script( 'custom-script' );
+}
+add_action( 'wp_enqueue_scripts', 'my_scripts' );

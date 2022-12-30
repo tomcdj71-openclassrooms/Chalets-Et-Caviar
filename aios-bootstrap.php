@@ -11,8 +11,4 @@
  */
 $GLOBALS['aiowps_firewall_rules_path'] = __DIR__.'/wp-content/uploads/aios/firewall-rules/';
 
-// Begin AIOWPSEC Firewall
-if (file_exists(__DIR__.'/wp-content/plugins/all-in-one-wp-security-and-firewall/classes/firewall/wp-security-firewall.php')) {
-	include_once(__DIR__.'/wp-content/plugins/all-in-one-wp-security-and-firewall/classes/firewall/wp-security-firewall.php');
-}
-// End AIOWPSEC Firewall
+
