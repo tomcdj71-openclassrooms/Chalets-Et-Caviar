@@ -276,5 +276,38 @@ div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progre
 		margin-bottom: 0;
 		margin-top: 50px;
 	}
+}
+
+.site-logo a img {
+	width: 70%!important;
+}
+
+.site-header {
+	padding: 0!important;
+	margin:0!important;
+	height: 80px!important;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #FCCE00;
+	box-shadow: 0px 2px 1px -4px #FCCE00;
+	padding: 16px 35px 16px 35px;
+}
+
+.site-footer {
+	margin: 0 !important;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #FCCE00;
+	box-shadow: 0px 2px 1px -4px #FCCE00;
+}
+
+.elementskit-single-testimonial-slider:hover {
+  border-color: #FCCE00!important;
+}
+
+.elementskit-single-testimonial-slider {
+  border-color: transparent!important;
 }</style>
 <!-- end Simple Custom CSS and JS -->
