@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-14 21:39:21+0000\n"
+"PO-Revision-Date: 2023-01-02 19:38:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +16,11 @@ msgstr ""
 msgctxt "System Info"
 msgid "We recommend using PHP version %s or higher."
 msgstr "Nous vous recommandons d’utiliser la version %s ou supérieure de PHP."
+
+#: modules/kit-elements-defaults/module.php:25
+#: assets/js/kit-elements-defaults-editor.js:834
+msgid "Save as Default"
+msgstr "Définir comme valeur par défaut"
 
 #: includes/controls/groups/typography.php:145
 msgctxt "Typography Control"
@@ -215,6 +220,11 @@ msgstr "vous n’êtes pas autorisé à effectuer cette action."
 msgid "Get Elementor Pro"
 msgstr "Obtenir Elementor Pro"
 
+#: modules/container-converter/module.php:86
+#: modules/container-converter/module.php:119
+msgid "Convert"
+msgstr "Convertir"
+
 #: modules/container-converter/module.php:85
 #: modules/container-converter/module.php:118
 msgid "Convert to container"
@@ -317,6 +327,23 @@ msgstr "Étirer"
 msgctxt "Flex Item Control"
 msgid "Center"
 msgstr "Centrer"
+
+#: includes/controls/groups/flex-item.php:30
+msgctxt "Flex Item Control"
+msgid "Custom Width"
+msgstr "Largeur personnalisée"
+
+#: includes/controls/groups/flex-item.php:24
+#: includes/controls/groups/flex-item.php:102
+#: includes/controls/groups/flex-item.php:151
+msgctxt "Flex Item Control"
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: includes/controls/groups/flex-item.php:23
+msgctxt "Flex Item Control"
+msgid "Default"
+msgstr "Par défaut"
 
 #: includes/controls/groups/flex-container.php:213
 msgctxt "Flex Container Control"
@@ -597,6 +624,10 @@ msgstr "Masquer les widgets natifs de WordPress des résultats de recherche"
 #: core/experiments/manager.php:293
 msgid "The “Inline Font Icons” will render the icons as inline SVG without loading the Font-Awesome and the eicons libraries and its related CSS files and fonts."
 msgstr "L’option « Icônes de police en ligne » rendra les icônes sous forme de SVG en ligne sans charger les bibliothèques Font-Awsome et eicons, ainsi que les fichiers CSS et les polices similaires."
+
+#: core/experiments/manager.php:291
+msgid "Inline Font Icons"
+msgstr "Icônes de police « inline »"
 
 #: core/experiments/experiments-reporter.php:21
 #: core/experiments/manager.php:505
@@ -907,7 +938,7 @@ msgstr "Rond"
 
 #: includes/widgets/common.php:1098
 msgid "Repeat-x"
-msgstr "Répéter sur X"
+msgstr "Répéter sur Y"
 
 #: includes/widgets/common.php:1099
 msgid "Repeat-y"
@@ -1362,7 +1393,7 @@ msgstr "Pour utiliser une version expérimentale sur votre site, il suffit de cl
 #. translators: %1$s Link open tag, %2$s: Link close tag.
 #: core/experiments/manager.php:511
 msgid "Access new and experimental features from Elementor before they're officially released. As these features are still in development, they are likely to change, evolve or even be removed  altogether. %1$sLearn More.%2$s"
-msgstr "Accédez aux nouvelles fonctionnalités expérimentales d’Elementor avant leur sortie officielle. Comme ces fonctionnalités sont encore en cours de développement, elles sont susceptibles d’être modifiées, d’évoluer ou même d’être totalement supprimées. %1$sEn apprendre plus.%2$s"
+msgstr "Accédez aux nouvelles fonctionnalités expérimentales d’Elementor avant leur sortie officielle. Comme ces fonctionnalités sont encore en cours de développement, elles sont susceptibles d’être modifiées, d’évoluer ou même d’être totalement supprimées. <a href=\"%s\" target=\"_blank\">En savoir plus.</a>"
 
 #: core/common/modules/finder/categories/settings.php:60
 #: core/experiments/manager.php:468
@@ -2297,7 +2328,7 @@ msgstr "Certains fichiers de votre thème sont manquants."
 
 #: core/files/file-types/svg.php:100 core/files/uploads-manager.php:539
 msgid "This file is not allowed for security reasons."
-msgstr "Ce fichier n’est pas autorisé pour des raisons de sécurité."
+msgstr "Les fichiers %1$s ne sont pas autorisés pour des raisons de sécurité"
 
 #: includes/admin-templates/beta-tester.php:37 assets/js/beta-tester.js:65
 msgid "Sign Up"
