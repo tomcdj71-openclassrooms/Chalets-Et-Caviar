@@ -34,14 +34,14 @@
 #contact-submit button[type="submit"]:hover{
 	font-family: "Roboto", Sans-serif;
 	font-weight: 500;
-	fill: #139c49;
+	fill: #FCCE00;
 	color: #CCD4DC;
-	background-color: #139c49;
+	background-color: #FCCE00;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: #139c49;
+	border-color: #FCCE00;
 	border-radius: 100px 100px 100px 100px;
-	box-shadow: 0px 4px 9px -4px #139c49;;
+	box-shadow: 0px 4px 9px -4px #FCCE00;;
 	padding: 16px 55px 16px 55px;
 }
 
@@ -59,11 +59,11 @@
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none!important;
-  color: #FCCE00;
+  color: #F6C7A5;
 }
 
 .comment-metadata a {
-  color: #FCCE00;
+  color: #F6C7A5;
   font-size: 13px;
   text-decoration: none!important;
 }
@@ -95,19 +95,19 @@
   font-weight: 500;
   fill: #CCD4DC;
   color: #CCD4DC;
-  background-color: #139c49;
+  background-color: #FCCE00;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  border-color: #139c49;
+  border-color: #FCCE00;
   border-radius: 100px 100px 100px 100px;
-  box-shadow: 0px 4px 9px -4px #139c49;
+  box-shadow: 0px 4px 9px -4px #FCCE00;
   padding: 10px 25px 10px 25px;
   margin-top: 10px;
   text-decoration: underline;
 }
 
 #commentform a {
-  color: #FCCE00;
+  color: #F6C7A5;
   text-decoration: none;
 }
 
@@ -117,7 +117,7 @@
 }
 
 .comment-content a {
-  color: #FCCE00;
+  color: #F6C7A5;
   text-decoration: none;
 }
 
@@ -148,12 +148,12 @@
   font-weight: 500;
   fill: #CCD4DC;
   color: #CCD4DC;
-  background-color: #139c49;
+  background-color: #FCCE00;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  border-color: #139c49;
+  border-color: #FCCE00;
   border-radius: 100px 100px 100px 100px;
-  box-shadow: 0px 4px 9px -4px #139c49;
+  box-shadow: 0px 4px 9px -4px #FCCE00;
   padding: 10px 25px 10px 25px;
   margin-top: 10px;
   text-decoration: underline;
@@ -167,7 +167,7 @@
     font-style: normal;
     text-transform: uppercase;
     text-decoration: none !important;
-    color: #FCCE00;
+    color: #F6C7A5;
 }
 
 .comments-area a:hover:not(.comment-reply-link) {
@@ -181,7 +181,7 @@
     font-style: normal;
     text-transform: uppercase;
     text-decoration: none !important;
-    color: #FCCE00;
+    color: #F6C7A5;
 }
 
 .site-navigation ul.menu li a:hover {
@@ -194,7 +194,7 @@
 }
 
 div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progress-fill {
-    background-color: #FCCE00 !important;
+    background-color: #F6C7A5 !important;
 }
 
 .ekit-wid-con .elementskit-post-image-card {
@@ -207,7 +207,7 @@ div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progre
 }
 
 .ekit-wid-con .elementskit-post-image-card .entry-title a:hover {
-    color: #FCCE00;
+    color: #F6C7A5;
 }
 
 .ekit-wid-con .elementskit-post-image-card .elementskit-post-body>p {
@@ -220,7 +220,7 @@ div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progre
 }
 
 .elementor-widget-heading .elementor-heading-title {
-    color: #FCCE00;
+    color: #F6C7A5;
 }
 
 .ekit-wid-con .elementskit-btn {
@@ -238,8 +238,8 @@ div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progre
 
 .ekit-wid-con .elementskit-btn:hover {
     color: #CCD4DC;
-    background-color: #139C49;
-    border-color: #139C49;
+    background-color: #FCCE00;
+    border-color: #FCCE00;
 }
 
 .property-template-default .related-post-section .post .entry-title, .post-wrapper .post .entry-title {
@@ -289,8 +289,8 @@ div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progre
 	background-color: #fff;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: #FCCE00;
-	box-shadow: 0px 2px 1px -4px #FCCE00;
+	border-color: #F6C7A5;
+	box-shadow: 0px 2px 1px -4px #F6C7A5;
 	padding: 16px 35px 16px 35px;
 }
 
@@ -299,12 +299,12 @@ div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progre
 	background-color: #fff;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: #FCCE00;
-	box-shadow: 0px 2px 1px -4px #FCCE00;
+	border-color: #F6C7A5;
+	box-shadow: 0px 2px 1px -4px #F6C7A5;
 }
 
 .elementskit-single-testimonial-slider:hover {
-  border-color: #FCCE00!important;
+  border-color: #F6C7A5!important;
 }
 
 .elementskit-single-testimonial-slider {
@@ -312,6 +312,6 @@ div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progre
 }
 
 li.slick-active button {
-  background-color: #FCCE00!important;;
+  background-color: #F6C7A5!important;;
 }</style>
 <!-- end Simple Custom CSS and JS -->
