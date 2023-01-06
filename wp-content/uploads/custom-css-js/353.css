@@ -1,0 +1,317 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.cre-blog-post .content-area .site-main .post-thumbnail .wp-post-image, .cre-blog-post .content-area .site-main .post-thumbnail {
+  height: 230px;
+}
+.post.property .entry-content p {
+  font-size: 16px;
+	height: 80px;
+}
+
+.property-template-default .related-post-section .post .property-meta.entry-meta, .post-wrapper .post .property-meta.entry-meta {
+  height: 120px;
+}
+
+@media only screen and (min-width: 1024px)
+.columns[data-columns-lg="3"] > .column {
+  padding-top: 3rem;
+}
+
+#contact-submit button[type="submit"] {
+	font-family: "Roboto", Sans-serif;
+	font-weight: 500;
+	fill: #14A44D;
+	color: #FFFFFF;
+	background-color: #14A44D;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #14A44D;
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 0px 4px 9px -4px #14A44D;;
+	padding: 16px 55px 16px 55px;
+}
+
+#contact-submit button[type="submit"]:hover{
+	font-family: "Roboto", Sans-serif;
+	font-weight: 500;
+	fill: #139c49;
+	color: #CCD4DC;
+	background-color: #139c49;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #139c49;
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 0px 4px 9px -4px #139c49;;
+	padding: 16px 55px 16px 55px;
+}
+
+/*.site-main {
+  background-color: #F3F5F8;;
+  margin: 15px;
+  padding: 15px;
+  width: 1%;
+  border-radius: 55px;
+}*/
+
+.comment-metadata .fn, .comment-author .url, .comment-reply-login {
+  display: inline-block;
+  font-size: 18px;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none!important;
+  color: #FCCE00;
+}
+
+.comment-metadata a {
+  color: #FCCE00;
+  font-size: 13px;
+  text-decoration: none!important;
+}
+
+.comments-area a:hover:not(.comment-reply-link) {
+  color: #000;
+  text-decoration: underline!important;
+}
+
+.comment-reply-link {
+  font-family: "Roboto", Sans-serif;
+  text-decoration: none!important;
+  font-weight: 500;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #14A44D;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #14A44D;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 0px 4px 9px -4px #14A44D;
+  padding: 10px 25px 10px 25px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.comment-reply-link:hover {
+  font-family: "Roboto", Sans-serif;
+  font-weight: 500;
+  fill: #CCD4DC;
+  color: #CCD4DC;
+  background-color: #139c49;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #139c49;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 0px 4px 9px -4px #139c49;
+  padding: 10px 25px 10px 25px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+#commentform a {
+  color: #FCCE00;
+  text-decoration: none;
+}
+
+#commentform a:hover {
+  color: #354255;
+  text-decoration: underline;
+}
+
+.comment-content a {
+  color: #FCCE00;
+  text-decoration: none;
+}
+
+.comment-content a:hover {
+  color: #354255;
+  text-decoration: underline;
+}
+
+#commentform [type="submit"]:not(:disabled){
+  font-family: "Roboto", Sans-serif;
+  text-decoration: none!important;
+  font-weight: 500;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #14A44D;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #14A44D;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 0px 4px 9px -4px #14A44D;
+  padding: 10px 25px 10px 25px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#commentform [type="submit"]:not(:disabled):hover {
+  font-family: "Roboto", Sans-serif;
+  font-weight: 500;
+  fill: #CCD4DC;
+  color: #CCD4DC;
+  background-color: #139c49;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #139c49;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 0px 4px 9px -4px #139c49;
+  padding: 10px 25px 10px 25px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.comment-metadata .fn,
+.comment-author .url,
+.comment-reply-login {
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    color: #FCCE00;
+}
+
+.comments-area a:hover:not(.comment-reply-link) {
+    color: #000;
+    text-decoration: underline !important;
+}
+
+.site-navigation ul.menu li a {
+    display: block;
+    padding: 8px 15px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    color: #FCCE00;
+}
+
+.site-navigation ul.menu li a:hover {
+    color: #000;
+}
+
+.site-navigation ul.menu li ul {
+	background-color: #F3F5F8 !important;
+	z-index: 999;
+}
+
+div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progress-fill {
+    background-color: #FCCE00 !important;
+}
+
+.ekit-wid-con .elementskit-post-image-card {
+    background-color: #F3F5F8;
+    background: #F3F5F8;
+}
+
+.ekit-wid-con .elementskit-post-image-card .entry-title a {
+    color: #000;
+}
+
+.ekit-wid-con .elementskit-post-image-card .entry-title a:hover {
+    color: #FCCE00;
+}
+
+.ekit-wid-con .elementskit-post-image-card .elementskit-post-body>p {
+    color: #7A7A7A;
+}
+
+.ekit-wid-con .elementskit-post-image-card .post-meta-list {
+    margin-bottom: 20px;
+    color: #6EC1E4;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    color: #FCCE00;
+}
+
+.ekit-wid-con .elementskit-btn {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #14A44D;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #14A44D;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0px 4px 9px -4px #14A44D;
+    padding: 16px 35px 16px 35px;
+}
+
+
+.ekit-wid-con .elementskit-btn:hover {
+    color: #CCD4DC;
+    background-color: #139C49;
+    border-color: #139C49;
+}
+
+.property-template-default .related-post-section .post .entry-title, .post-wrapper .post .entry-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.property-template-default .related-post-section .post-tags, .post-wrapper .post-tags {
+  padding: 7px 7px;
+  font-size: 10px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.property-template-default .related-post-section .post-tags-wrap, .post-wrapper .post-tags-wrap {
+  top: 5px;
+}
+
+@media (max-width:992px) {
+	.post-wrapper .post .entry-title {
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+	}
+}
+
+@media (max-width:576px) {
+	.post-detail-wrap .property-meta-info {
+		margin-bottom: 0;
+		margin-top: 80px;
+	}
+}
+
+@media (max-width:992px) {
+	.post-detail-wrap .property-meta-info {
+		margin-bottom: 0;
+		margin-top: 50px;
+	}
+}
+
+.site-logo a img {
+	width: 70%!important;
+}
+
+.site-header {
+	padding: 0!important;
+	margin:0!important;
+	height: 80px!important;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #FCCE00;
+	box-shadow: 0px 2px 1px -4px #FCCE00;
+	padding: 16px 35px 16px 35px;
+}
+
+.site-footer {
+	margin: 0 !important;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #FCCE00;
+	box-shadow: 0px 2px 1px -4px #FCCE00;
+}
+
+.elementskit-single-testimonial-slider:hover {
+  border-color: #FCCE00!important;
+}
+
+.elementskit-single-testimonial-slider {
+  border-color: transparent!important;
+}
+
+li.slick-active button {
+  background-color: #FCCE00!important;;
+}</style>
+<!-- end Simple Custom CSS and JS -->

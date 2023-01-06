@@ -1,0 +1,966 @@
+0000.001 (0) Opened log file at time: Thu, 05 Jan 2023 01:21:19 +0000 on https://chalets-et-caviar.dew-it.dev
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.1.13 (fpm-fcgi, Linux vmi1131840.contaboserver.net 5.10.0-20-amd64 #1 SMP Debian 5.10.158-2 (2022-12-13) x86_64) MySQL: 10.5.18-MariaDB-0+deb11u1 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.18.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.1M | 20M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 14477.9 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.006 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.012 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1672795275, seconds_ago=86404)
+0000.015 (0) Set semaphore last lock (fd) time to 2023-01-05 01:21:19
+0000.016 (0) Semaphore lock (fd) complete
+0000.020 (0) Backup run: resumption=0, nonce=505e6bc6f624, file_nonce=505e6bc6f624 begun at=1672881679 (0s ago), job type=backup
+0000.022 (0) Scheduling a resumption (1) after 300 seconds (1672881979) in case this run gets aborted
+0000.026 (0) Checking if we have a zip executable available
+0000.031 (0) Creation of backups of directories: beginning
+0000.038 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.403 (0) Total entities for the zip file: 2857 directories, 14558 files (0 skipped as non-modified), 179.1 MB
+0001.425 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.430 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.436 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.441 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.448 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.452 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.457 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.462 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.467 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.477 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.479 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.4 MB, 14558 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.348 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1100 files added (on-disk size: 5651.9 KB)
+0003.352 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1200 files added (on-disk size: 5651.9 KB)
+0003.356 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1300 files added (on-disk size: 5651.9 KB)
+0003.359 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1400 files added (on-disk size: 5651.9 KB)
+0003.363 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1500 files added (on-disk size: 5651.9 KB)
+0003.367 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1600 files added (on-disk size: 5651.9 KB)
+0003.370 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1700 files added (on-disk size: 5651.9 KB)
+0003.374 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1800 files added (on-disk size: 5651.9 KB)
+0003.381 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 1900 files added (on-disk size: 5651.9 KB)
+0003.384 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2000 files added (on-disk size: 5651.9 KB)
+0003.386 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.1 MB, 14558 files batched, 1001 (2002) added so far); re-opening (prior size: 5651.9 KB)
+0005.333 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2100 files added (on-disk size: 9808.1 KB)
+0005.336 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2200 files added (on-disk size: 9808.1 KB)
+0005.339 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2300 files added (on-disk size: 9808.1 KB)
+0005.342 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2400 files added (on-disk size: 9808.1 KB)
+0005.345 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2500 files added (on-disk size: 9808.1 KB)
+0005.347 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2600 files added (on-disk size: 9808.1 KB)
+0005.350 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2700 files added (on-disk size: 9808.1 KB)
+0005.353 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2800 files added (on-disk size: 9808.1 KB)
+0005.356 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 2900 files added (on-disk size: 9808.1 KB)
+0005.359 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3000 files added (on-disk size: 9808.1 KB)
+0005.362 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.5 MB, 14558 files batched, 1001 (3003) added so far); re-opening (prior size: 9808.1 KB)
+0008.866 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3100 files added (on-disk size: 15638.6 KB)
+0008.870 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3200 files added (on-disk size: 15638.6 KB)
+0008.875 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3300 files added (on-disk size: 15638.6 KB)
+0008.880 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3400 files added (on-disk size: 15638.6 KB)
+0008.885 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3500 files added (on-disk size: 15638.6 KB)
+0008.892 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3600 files added (on-disk size: 15638.6 KB)
+0008.898 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3700 files added (on-disk size: 15638.6 KB)
+0008.903 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3800 files added (on-disk size: 15638.6 KB)
+0008.908 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 3900 files added (on-disk size: 15638.6 KB)
+0008.912 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4000 files added (on-disk size: 15638.6 KB)
+0008.915 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.5 MB, 14558 files batched, 1001 (4004) added so far); re-opening (prior size: 15638.6 KB)
+0010.076 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4100 files added (on-disk size: 17096.3 KB)
+0010.080 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4200 files added (on-disk size: 17096.3 KB)
+0010.083 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4300 files added (on-disk size: 17096.3 KB)
+0010.086 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4400 files added (on-disk size: 17096.3 KB)
+0010.089 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4500 files added (on-disk size: 17096.3 KB)
+0010.093 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4600 files added (on-disk size: 17096.3 KB)
+0010.096 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4700 files added (on-disk size: 17096.3 KB)
+0010.101 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4800 files added (on-disk size: 17096.3 KB)
+0010.105 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 4900 files added (on-disk size: 17096.3 KB)
+0010.108 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5000 files added (on-disk size: 17096.3 KB)
+0010.111 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.2 MB, 14558 files batched, 1001 (5005) added so far); re-opening (prior size: 17096.3 KB)
+0011.087 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5100 files added (on-disk size: 18680.2 KB)
+0011.097 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5200 files added (on-disk size: 18680.2 KB)
+0011.100 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5300 files added (on-disk size: 18680.2 KB)
+0011.103 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5400 files added (on-disk size: 18680.2 KB)
+0011.108 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5500 files added (on-disk size: 18680.2 KB)
+0011.116 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5600 files added (on-disk size: 18680.2 KB)
+0011.122 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5700 files added (on-disk size: 18680.2 KB)
+0011.126 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5800 files added (on-disk size: 18680.2 KB)
+0011.129 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 5900 files added (on-disk size: 18680.2 KB)
+0011.133 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6000 files added (on-disk size: 18680.2 KB)
+0011.134 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6 MB, 14558 files batched, 1001 (6006) added so far); re-opening (prior size: 18680.2 KB)
+0012.167 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6100 files added (on-disk size: 20809.2 KB)
+0012.172 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6200 files added (on-disk size: 20809.2 KB)
+0012.175 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6300 files added (on-disk size: 20809.2 KB)
+0012.177 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6400 files added (on-disk size: 20809.2 KB)
+0012.180 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6500 files added (on-disk size: 20809.2 KB)
+0012.182 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6600 files added (on-disk size: 20809.2 KB)
+0012.185 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6700 files added (on-disk size: 20809.2 KB)
+0012.187 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6800 files added (on-disk size: 20809.2 KB)
+0012.189 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 6900 files added (on-disk size: 20809.2 KB)
+0012.192 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7000 files added (on-disk size: 20809.2 KB)
+0012.193 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.3 MB, 14558 files batched, 1001 (7007) added so far); re-opening (prior size: 20809.2 KB)
+0012.667 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7100 files added (on-disk size: 21928.9 KB)
+0012.671 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7200 files added (on-disk size: 21928.9 KB)
+0012.673 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7300 files added (on-disk size: 21928.9 KB)
+0012.675 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7400 files added (on-disk size: 21928.9 KB)
+0012.677 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7500 files added (on-disk size: 21928.9 KB)
+0012.680 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7600 files added (on-disk size: 21928.9 KB)
+0012.682 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7700 files added (on-disk size: 21928.9 KB)
+0012.685 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7800 files added (on-disk size: 21928.9 KB)
+0012.688 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 7900 files added (on-disk size: 21928.9 KB)
+0012.690 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 14558 files batched, 966 (7973) added so far); re-opening (prior size: 21928.9 KB)
+0016.358 (0) A useful amount of data was added after this amount of zip processing: 4.5 s (normalised: 4.5 s, rate: 5710.9 KB/s)
+0016.361 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.5230009555817, normalised_time=4.4826801925415, max_time=16.359315872192, data points known=1, old_max_bytes=26214400, new_max_bytes=57400880)
+0016.397 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8000 files added (on-disk size: 29348.3 KB)
+0016.403 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8100 files added (on-disk size: 29348.3 KB)
+0016.407 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8200 files added (on-disk size: 29348.3 KB)
+0016.411 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8300 files added (on-disk size: 29348.3 KB)
+0016.415 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8400 files added (on-disk size: 29348.3 KB)
+0016.420 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8500 files added (on-disk size: 29348.3 KB)
+0016.425 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8600 files added (on-disk size: 29348.3 KB)
+0016.430 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8700 files added (on-disk size: 29348.3 KB)
+0016.434 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8800 files added (on-disk size: 29348.3 KB)
+0016.438 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 8900 files added (on-disk size: 29348.3 KB)
+0016.441 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.4 MB, 14558 files batched, 1001 (8974) added so far); re-opening (prior size: 29348.3 KB)
+0018.688 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9000 files added (on-disk size: 33925.9 KB)
+0018.692 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9100 files added (on-disk size: 33925.9 KB)
+0018.695 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9200 files added (on-disk size: 33925.9 KB)
+0018.698 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9300 files added (on-disk size: 33925.9 KB)
+0018.701 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9400 files added (on-disk size: 33925.9 KB)
+0018.705 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9500 files added (on-disk size: 33925.9 KB)
+0018.708 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9600 files added (on-disk size: 33925.9 KB)
+0018.711 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9700 files added (on-disk size: 33925.9 KB)
+0018.714 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9800 files added (on-disk size: 33925.9 KB)
+0018.717 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 9900 files added (on-disk size: 33925.9 KB)
+0018.719 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.4 MB, 14558 files batched, 1001 (9975) added so far); re-opening (prior size: 33925.9 KB)
+0021.658 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10000 files added (on-disk size: 40741.8 KB)
+0021.662 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10100 files added (on-disk size: 40741.8 KB)
+0021.666 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10200 files added (on-disk size: 40741.8 KB)
+0021.675 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10300 files added (on-disk size: 40741.8 KB)
+0021.680 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10400 files added (on-disk size: 40741.8 KB)
+0021.683 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10500 files added (on-disk size: 40741.8 KB)
+0021.686 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10600 files added (on-disk size: 40741.8 KB)
+0021.691 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10700 files added (on-disk size: 40741.8 KB)
+0021.696 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10800 files added (on-disk size: 40741.8 KB)
+0021.700 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 10900 files added (on-disk size: 40741.8 KB)
+0021.702 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.6 MB, 14558 files batched, 1001 (10976) added so far); re-opening (prior size: 40741.8 KB)
+0023.544 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11000 files added (on-disk size: 47084.9 KB)
+0023.548 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11100 files added (on-disk size: 47084.9 KB)
+0023.552 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11200 files added (on-disk size: 47084.9 KB)
+0023.555 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11300 files added (on-disk size: 47084.9 KB)
+0023.559 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11400 files added (on-disk size: 47084.9 KB)
+0023.562 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11500 files added (on-disk size: 47084.9 KB)
+0023.566 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11600 files added (on-disk size: 47084.9 KB)
+0023.570 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11700 files added (on-disk size: 47084.9 KB)
+0023.574 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11800 files added (on-disk size: 47084.9 KB)
+0023.578 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 11900 files added (on-disk size: 47084.9 KB)
+0023.581 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.9 MB, 14558 files batched, 1001 (11977) added so far); re-opening (prior size: 47084.9 KB)
+0025.683 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12000 files added (on-disk size: 51133.6 KB)
+0025.688 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12100 files added (on-disk size: 51133.6 KB)
+0025.691 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12200 files added (on-disk size: 51133.6 KB)
+0025.695 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12300 files added (on-disk size: 51133.6 KB)
+0025.699 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12400 files added (on-disk size: 51133.6 KB)
+0025.703 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12500 files added (on-disk size: 51133.6 KB)
+0025.707 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12600 files added (on-disk size: 51133.6 KB)
+0025.712 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12700 files added (on-disk size: 51133.6 KB)
+0025.716 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12800 files added (on-disk size: 51133.6 KB)
+0025.720 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 12900 files added (on-disk size: 51133.6 KB)
+0025.723 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.1 MB, 14558 files batched, 1001 (12978) added so far); re-opening (prior size: 51133.6 KB)
+0027.683 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13000 files added (on-disk size: 56184.5 KB)
+0027.687 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13100 files added (on-disk size: 56184.5 KB)
+0027.690 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13200 files added (on-disk size: 56184.5 KB)
+0027.693 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13300 files added (on-disk size: 56184.5 KB)
+0027.696 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13400 files added (on-disk size: 56184.5 KB)
+0027.699 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13500 files added (on-disk size: 56184.5 KB)
+0027.702 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13600 files added (on-disk size: 56184.5 KB)
+0027.705 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13700 files added (on-disk size: 56184.5 KB)
+0027.708 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13800 files added (on-disk size: 56184.5 KB)
+0027.712 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 13900 files added (on-disk size: 56184.5 KB)
+0027.714 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.8 MB, 14558 files batched, 1001 (13979) added so far); re-opening (prior size: 56184.5 KB)
+0029.633 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 14000 files added (on-disk size: 60688 KB)
+0029.638 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 14100 files added (on-disk size: 60688 KB)
+0029.643 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 14200 files added (on-disk size: 60688 KB)
+0029.647 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 14300 files added (on-disk size: 60688 KB)
+0029.651 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 14400 files added (on-disk size: 60688 KB)
+0029.655 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.tmp: 14500 files added (on-disk size: 60688 KB)
+0030.237 (0) Creating zip file manifest (backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip.list-temp.tmp)
+0030.277 (0) Successfully created zip file manifest (size: 1213862)
+0030.862 (0) Created plugins zip (0) - 62330.5 KB in 30.8 s (2022.4 KB/s) (sha1: 119efd1840db5f3e0c59e5e2d8a847128f3fb9fd, sha256: 9129a90621b79cdd4062822d50d4395c7504ce9ad37921e85b62d0884a593873)
+0030.877 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0030.878 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-1cc32e50377813ca763b0ed449e86c7f)
+0031.022 (0) FTP: upload attempt: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip -> ftp://echo@178.63.9.180:5757/rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip
+0031.145 (0) Ftp chunked upload: 0.8 % uploaded
+0031.163 (0) Ftp chunked upload: 1.7 % uploaded
+0031.177 (0) Ftp chunked upload: 2.5 % uploaded
+0031.193 (0) Ftp chunked upload: 3.3 % uploaded
+0031.215 (0) Ftp chunked upload: 5 % uploaded
+0031.246 (0) Ftp chunked upload: 6.6 % uploaded
+0031.301 (0) Ftp chunked upload: 9.9 % uploaded
+0031.388 (0) Ftp chunked upload: 13.2 % uploaded
+0031.480 (0) Ftp chunked upload: 16.5 % uploaded
+0031.567 (0) Ftp chunked upload: 19.8 % uploaded
+0031.653 (0) Ftp chunked upload: 23.1 % uploaded
+0031.744 (0) Ftp chunked upload: 26.4 % uploaded
+0031.831 (0) Ftp chunked upload: 29.6 % uploaded
+0031.921 (0) Ftp chunked upload: 32.9 % uploaded
+0032.006 (0) Ftp chunked upload: 36.2 % uploaded
+0032.094 (0) Ftp chunked upload: 39.5 % uploaded
+0032.185 (0) Ftp chunked upload: 42.8 % uploaded
+0032.270 (0) Ftp chunked upload: 46.1 % uploaded
+0032.359 (0) Ftp chunked upload: 49.4 % uploaded
+0032.448 (0) Ftp chunked upload: 52.7 % uploaded
+0032.534 (0) Ftp chunked upload: 56 % uploaded
+0032.624 (0) Ftp chunked upload: 59.3 % uploaded
+0032.711 (0) Ftp chunked upload: 62.6 % uploaded
+0032.799 (0) Ftp chunked upload: 65.9 % uploaded
+0032.893 (0) Ftp chunked upload: 69.1 % uploaded
+0032.995 (0) Ftp chunked upload: 72.4 % uploaded
+0033.085 (0) Ftp chunked upload: 75.7 % uploaded
+0033.173 (0) Ftp chunked upload: 79 % uploaded
+0033.264 (0) Ftp chunked upload: 82.3 % uploaded
+0033.348 (0) Ftp chunked upload: 85.6 % uploaded
+0033.436 (0) Ftp chunked upload: 88.9 % uploaded
+0033.524 (0) Ftp chunked upload: 92.2 % uploaded
+0033.613 (0) Ftp chunked upload: 95.5 % uploaded
+0033.701 (0) Ftp chunked upload: 98.8 % uploaded
+0033.839 (0) FTP: upload attempt successful (62330.5KB in 2.81s)
+0033.841 (0) Recording as successfully uploaded: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip
+0033.853 (0) Deleting local file: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip: OK
+0033.874 (0) Beginning creation of dump of themes (split every: 400 MB)
+0033.882 (0) Total entities for the zip file: 21 directories, 90 files (0 skipped as non-modified), 2.8 MB
+0034.094 (0) Creating zip file manifest (backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-themes.zip.list-temp.tmp)
+0034.094 (0) Successfully created zip file manifest (size: 5720)
+0034.117 (0) Created themes zip (0) - 2297.7 KB in 0.2 s (9534.9 KB/s) (sha1: 784cbe706549f4134fa545efc419279d0a018392, sha256: ccdc379e462aff3c242c65a1fd8783429633245f9c61d2e68ca4a31fe208cd72)
+0034.120 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0034.121 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-1cc32e50377813ca763b0ed449e86c7f)
+0034.264 (0) FTP: upload attempt: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-themes.zip -> ftp://echo@178.63.9.180:5757/rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-themes.zip
+0034.372 (0) Ftp chunked upload: 22.5 % uploaded
+0034.407 (0) Ftp chunked upload: 44.9 % uploaded
+0034.423 (0) Ftp chunked upload: 67.4 % uploaded
+0034.435 (0) Ftp chunked upload: 89.8 % uploaded
+0034.519 (0) FTP: upload attempt successful (2297.7KB in 0.25s)
+0034.520 (0) Recording as successfully uploaded: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-themes.zip
+0034.523 (0) Deleting local file: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-themes.zip: OK
+0034.544 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0034.545 (0) Looking for candidates to backup in: /var/www/html/chalets-et-caviar.dew-it.dev/wp-content/uploads
+0034.546 (0) finding files: aios: adding to list (1)
+0034.547 (0) finding files: elementor: adding to list (2)
+0034.548 (0) finding files: 2022: adding to list (3)
+0034.548 (0) finding files: matomo: adding to list (4)
+0034.549 (0) finding files: 2023: adding to list (5)
+0034.549 (0) finding files: essential-addons-elementor: adding to list (6)
+0034.550 (0) finding files: twentytwentythree-templates: adding to list (7)
+0034.550 (0) finding files: wpforms: adding to list (8)
+0034.551 (0) finding files: custom-css-js: adding to list (9)
+0034.552 (0) finding files: ithemes-security: adding to list (10)
+0034.552 (0) finding files: real-home-templates: adding to list (11)
+0034.552 (0) finding files: mphb: adding to list (12)
+0034.553 (0) finding files: wpcf7_uploads: adding to list (13)
+0034.553 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0034.574 (0) Total entities for the zip file: 20 directories, 350 files (0 skipped as non-modified), 203.1 MB
+0034.577 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0034.579 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 54.7 MB added on this batch (54.9 MB, 350 files batched, 189 (189) added so far); re-opening (prior size: 0 KB)
+0034.874 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 1 s, rate: 54122.7 KB/s)
+0034.876 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.0390920639038, normalised_time=1.0357116719203, max_time=34.874222040176, data points known=1, old_max_bytes=57400880, new_max_bytes=209715200)
+0034.878 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-uploads.zip.tmp: 200 files added (on-disk size: 56143.6 KB)
+0034.879 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-uploads.zip.tmp: 300 files added (on-disk size: 56143.6 KB)
+0067.390 (0) Creating zip file manifest (backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-uploads.zip.list-temp.tmp)
+0067.392 (0) Successfully created zip file manifest (size: 18545)
+0068.909 (0) Created uploads zip (0) - 153320.6 KB in 34.3 s (4463.8 KB/s) (sha1: e96df0bdbcd858b067a821d8d3085a48fe2c74f3, sha256: 842d35474e4c0d66de97b877510cd0b07288880fbff4085d6e9b463f1a773d28)
+0068.915 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0068.916 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-1cc32e50377813ca763b0ed449e86c7f)
+0069.055 (0) FTP: upload attempt: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-uploads.zip -> ftp://echo@178.63.9.180:5757/rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-uploads.zip
+0069.195 (0) Ftp chunked upload: 0.3 % uploaded
+0069.217 (0) Ftp chunked upload: 0.7 % uploaded
+0069.242 (0) Ftp chunked upload: 1 % uploaded
+0069.252 (0) Ftp chunked upload: 1.3 % uploaded
+0069.281 (0) Ftp chunked upload: 2 % uploaded
+0069.299 (0) Ftp chunked upload: 2.7 % uploaded
+0069.365 (0) Ftp chunked upload: 4 % uploaded
+0069.453 (0) Ftp chunked upload: 5.4 % uploaded
+0069.541 (0) Ftp chunked upload: 6.7 % uploaded
+0069.629 (0) Ftp chunked upload: 8 % uploaded
+0069.717 (0) Ftp chunked upload: 9.4 % uploaded
+0069.805 (0) Ftp chunked upload: 10.7 % uploaded
+0069.894 (0) Ftp chunked upload: 12.1 % uploaded
+0069.982 (0) Ftp chunked upload: 13.4 % uploaded
+0070.069 (0) Ftp chunked upload: 14.7 % uploaded
+0070.158 (0) Ftp chunked upload: 16.1 % uploaded
+0070.246 (0) Ftp chunked upload: 17.4 % uploaded
+0070.334 (0) Ftp chunked upload: 18.7 % uploaded
+0070.422 (0) Ftp chunked upload: 20.1 % uploaded
+0070.511 (0) Ftp chunked upload: 21.4 % uploaded
+0070.618 (0) Ftp chunked upload: 22.8 % uploaded
+0070.708 (0) Ftp chunked upload: 24.1 % uploaded
+0070.805 (0) Ftp chunked upload: 25.4 % uploaded
+0070.885 (0) Ftp chunked upload: 26.8 % uploaded
+0070.976 (0) Ftp chunked upload: 28.1 % uploaded
+0071.061 (0) Ftp chunked upload: 29.4 % uploaded
+0071.144 (0) Ftp chunked upload: 30.8 % uploaded
+0071.250 (0) Ftp chunked upload: 32.1 % uploaded
+0071.324 (0) Ftp chunked upload: 33.5 % uploaded
+0071.415 (0) Ftp chunked upload: 34.8 % uploaded
+0071.501 (0) Ftp chunked upload: 36.1 % uploaded
+0071.590 (0) Ftp chunked upload: 37.5 % uploaded
+0071.676 (0) Ftp chunked upload: 38.8 % uploaded
+0071.764 (0) Ftp chunked upload: 40.2 % uploaded
+0071.852 (0) Ftp chunked upload: 41.5 % uploaded
+0071.939 (0) Ftp chunked upload: 42.8 % uploaded
+0072.028 (0) Ftp chunked upload: 44.2 % uploaded
+0072.118 (0) Ftp chunked upload: 45.5 % uploaded
+0072.220 (0) Ftp chunked upload: 46.8 % uploaded
+0072.296 (0) Ftp chunked upload: 48.2 % uploaded
+0072.380 (0) Ftp chunked upload: 49.5 % uploaded
+0072.469 (0) Ftp chunked upload: 50.9 % uploaded
+0072.554 (0) Ftp chunked upload: 52.2 % uploaded
+0072.649 (0) Ftp chunked upload: 53.5 % uploaded
+0072.733 (0) Ftp chunked upload: 54.9 % uploaded
+0072.821 (0) Ftp chunked upload: 56.2 % uploaded
+0072.908 (0) Ftp chunked upload: 57.5 % uploaded
+0072.997 (0) Ftp chunked upload: 58.9 % uploaded
+0073.085 (0) Ftp chunked upload: 60.2 % uploaded
+0073.173 (0) Ftp chunked upload: 61.6 % uploaded
+0073.261 (0) Ftp chunked upload: 62.9 % uploaded
+0073.350 (0) Ftp chunked upload: 64.2 % uploaded
+0073.437 (0) Ftp chunked upload: 65.6 % uploaded
+0073.525 (0) Ftp chunked upload: 66.9 % uploaded
+0073.613 (0) Ftp chunked upload: 68.3 % uploaded
+0073.701 (0) Ftp chunked upload: 69.6 % uploaded
+0073.790 (0) Ftp chunked upload: 70.9 % uploaded
+0073.877 (0) Ftp chunked upload: 72.3 % uploaded
+0073.966 (0) Ftp chunked upload: 73.6 % uploaded
+0074.053 (0) Ftp chunked upload: 74.9 % uploaded
+0074.141 (0) Ftp chunked upload: 76.3 % uploaded
+0074.230 (0) Ftp chunked upload: 77.6 % uploaded
+0074.317 (0) Ftp chunked upload: 79 % uploaded
+0074.405 (0) Ftp chunked upload: 80.3 % uploaded
+0074.493 (0) Ftp chunked upload: 81.6 % uploaded
+0074.582 (0) Ftp chunked upload: 83 % uploaded
+0074.668 (0) Ftp chunked upload: 84.3 % uploaded
+0074.756 (0) Ftp chunked upload: 85.6 % uploaded
+0074.846 (0) Ftp chunked upload: 87 % uploaded
+0074.936 (0) Ftp chunked upload: 88.3 % uploaded
+0075.020 (0) Ftp chunked upload: 89.7 % uploaded
+0075.112 (0) Ftp chunked upload: 91 % uploaded
+0075.200 (0) Ftp chunked upload: 92.3 % uploaded
+0075.288 (0) Ftp chunked upload: 93.7 % uploaded
+0075.377 (0) Ftp chunked upload: 95 % uploaded
+0075.464 (0) Ftp chunked upload: 96.3 % uploaded
+0075.553 (0) Ftp chunked upload: 97.7 % uploaded
+0075.640 (0) Ftp chunked upload: 99 % uploaded
+0075.809 (0) FTP: upload attempt successful (153320.6KB in 6.75s)
+0075.811 (0) Recording as successfully uploaded: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-uploads.zip
+0075.843 (0) Deleting local file: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-uploads.zip: OK
+0075.868 (0) Beginning backup of other directories found in the content directory (index: 0)
+0075.868 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0075.869 (0) Looking for candidates to backup in: /var/www/html/chalets-et-caviar.dew-it.dev/wp-content
+0075.870 (0) finding files: index.php: adding to list (1)
+0075.870 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0075.871 (0) finding files: updraft: skipping: this is the updraft directory
+0075.871 (0) finding files: languages: adding to list (2)
+0075.872 (0) finding files: cache: skipping: excluded by options
+0075.872 (0) finding files: mu-plugins: adding to list (3)
+0075.872 (0) finding files: uploads: skipping: this is the uploads directory
+0075.873 (0) finding files: upgrade: skipping: excluded by options
+0075.873 (0) finding files: plugins: skipping: this is the plugins directory
+0075.874 (0) finding files: themes: skipping: this is the themes directory
+0075.890 (0) Total entities for the zip file: 4 directories, 222 files (0 skipped as non-modified), 5.2 MB
+0075.894 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0075.898 (0) Zip: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0076.472 (0) Creating zip file manifest (backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-others.zip.list-temp.tmp)
+0076.475 (0) Successfully created zip file manifest (size: 16394)
+0076.500 (0) Created others zip (0) - 1549.2 KB in 0.6 s (2495.1 KB/s) (sha1: 8fe2095e73b20398cb86aec514c0e01d3ba0b1a0, sha256: 689dab2b680194cf43e77d6c11763adfe08f43b88a2de2e20b800d122ceddb86)
+0076.504 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0076.505 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-1cc32e50377813ca763b0ed449e86c7f)
+0076.636 (0) FTP: upload attempt: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-others.zip -> ftp://echo@178.63.9.180:5757/rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-others.zip
+0076.764 (0) Ftp chunked upload: 33.3 % uploaded
+0076.785 (0) Ftp chunked upload: 66.6 % uploaded
+0076.801 (0) Ftp chunked upload: 99.9 % uploaded
+0076.858 (0) FTP: upload attempt successful (1549.2KB in 0.22s)
+0076.861 (0) Recording as successfully uploaded: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-others.zip
+0076.865 (0) Deleting local file: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-others.zip: OK
+0076.888 (0) Saving backup status to database (elements: 8)
+0076.893 (0) Beginning creation of database dump (WordPress DB)
+0076.896 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0076.900 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0076.942 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `yahru_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\n (truncated - 1479 bytes total)
+0076.943 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0076.969 (0) Table yahru_options: Total expected rows (via COUNT): 386
+0076.970 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.011 (0) Table yahru_options: Rows added in this batch (next record: 82774): 382 (uncompressed bytes in this segment=1069998) in 0.05 seconds
+0077.016 (0) Table yahru_options: finishing file(s) (2, 116.1 KB)
+0077.023 (0) Table yahru_users: Total expected rows (via COUNT): 4
+0077.025 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.028 (0) Table yahru_users: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1670) in 0.01 seconds
+0077.031 (0) Table yahru_users: finishing file(s) (2, 0.8 KB)
+0077.036 (0) Table yahru_usermeta: Total expected rows (via COUNT): 120
+0077.037 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.040 (0) Table yahru_usermeta: Rows added in this batch (next record: 140): 120 (uncompressed bytes in this segment=12587) in 0.01 seconds
+0077.043 (0) Table yahru_usermeta: finishing file(s) (2, 4.2 KB)
+0077.048 (0) Table yahru_actionscheduler_actions: Total expected rows (via COUNT): 65
+0077.050 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.055 (0) Table yahru_actionscheduler_actions: Rows added in this batch (next record: 429): 65 (uncompressed bytes in this segment=24733) in 0.01 seconds
+0077.060 (0) Table yahru_actionscheduler_actions: finishing file(s) (2, 2.5 KB)
+0077.064 (0) Table yahru_actionscheduler_claims: Total expected rows (via COUNT): 0
+0077.068 (0) Table yahru_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.01 seconds
+0077.070 (0) Table yahru_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0077.074 (0) Table yahru_actionscheduler_groups: Total expected rows (via COUNT): 3
+0077.075 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.078 (0) Table yahru_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=718) in 0.01 seconds
+0077.083 (0) Table yahru_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0077.088 (0) Table yahru_actionscheduler_logs: Total expected rows (via COUNT): 183
+0077.090 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.094 (0) Table yahru_actionscheduler_logs: Rows added in this batch (next record: 195): 183 (uncompressed bytes in this segment=16490) in 0.01 seconds
+0077.098 (0) Table yahru_actionscheduler_logs: finishing file(s) (2, 2 KB)
+0077.104 (0) Table yahru_commentmeta: Total expected rows (via COUNT): 0
+0077.106 (0) Table yahru_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=652) in 0.00 seconds
+0077.109 (0) Table yahru_commentmeta: finishing file(s) (2, 0.4 KB)
+0077.112 (0) Table yahru_comments: Total expected rows (via COUNT): 2
+0077.113 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.114 (0) Table yahru_comments: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2418) in 0.00 seconds
+0077.117 (0) Table yahru_comments: finishing file(s) (2, 1 KB)
+0077.122 (0) Table yahru_links: Total expected rows (via COUNT): 0
+0077.124 (0) Table yahru_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1045) in 0.00 seconds
+0077.126 (0) Table yahru_links: finishing file(s) (2, 0.5 KB)
+0077.275 (0) Table yahru_postmeta: Total expected rows (approximate): 3212
+0077.421 (0) Table yahru_postmeta: Rows added in this batch (next record: 4481): 2994 (uncompressed bytes in this segment=5244208) in 0.29 seconds
+0077.426 (0) Table yahru_postmeta: finishing file(s) (2, 219.1 KB)
+0077.516 (0) Table yahru_posts: Total expected rows (via COUNT): 423
+0077.517 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.567 (0) Table yahru_posts: Rows added in this batch (next record: 758): 423 (uncompressed bytes in this segment=2757959) in 0.14 seconds
+0077.573 (0) Table yahru_posts: finishing file(s) (2, 106.5 KB)
+0077.577 (0) Table yahru_term_relationships: Total expected rows (approximate): 65
+0077.585 (0) Table yahru_term_relationships: Rows added in this batch (next record: 100000): 65 (uncompressed bytes in this segment=1634) in 0.01 seconds
+0077.597 (0) Table yahru_term_relationships: finishing file(s) (2, 0.6 KB)
+0077.626 (0) Table yahru_term_taxonomy: Total expected rows (via COUNT): 13
+0077.632 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.641 (0) Table yahru_term_taxonomy: Rows added in this batch (next record: 16): 13 (uncompressed bytes in this segment=1310) in 0.02 seconds
+0077.668 (0) Table yahru_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0077.678 (0) Table yahru_termmeta: Total expected rows (via COUNT): 0
+0077.681 (0) Table yahru_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.00 seconds
+0077.686 (0) Table yahru_termmeta: finishing file(s) (2, 0.4 KB)
+0077.695 (0) Table yahru_terms: Total expected rows (via COUNT): 13
+0077.697 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.700 (0) Table yahru_terms: Rows added in this batch (next record: 16): 13 (uncompressed bytes in this segment=1190) in 0.01 seconds
+0077.710 (0) Table yahru_terms: finishing file(s) (2, 0.6 KB)
+0077.745 (0) Table yahru_aiowps_debug_log: Total expected rows (via COUNT): 0
+0077.750 (0) Table yahru_aiowps_debug_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=643) in 0.03 seconds
+0077.777 (0) Table yahru_aiowps_debug_log: finishing file(s) (2, 0.4 KB)
+0077.828 (0) Table yahru_aiowps_events: Total expected rows (approximate): 3289
+0077.881 (0) Table yahru_aiowps_events: Rows added in this batch (next record: 3290): 3290 (uncompressed bytes in this segment=501894) in 0.09 seconds
+0077.892 (0) Table yahru_aiowps_events: finishing file(s) (2, 77.5 KB)
+0077.902 (0) Table yahru_aiowps_failed_logins: Total expected rows (via COUNT): 1
+0077.904 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.907 (0) Table yahru_aiowps_failed_logins: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1004) in 0.01 seconds
+0077.915 (0) Table yahru_aiowps_failed_logins: finishing file(s) (2, 0.5 KB)
+0077.920 (0) Table yahru_aiowps_global_meta: Total expected rows (via COUNT): 0
+0077.922 (0) Table yahru_aiowps_global_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=900) in 0.00 seconds
+0077.928 (0) Table yahru_aiowps_global_meta: finishing file(s) (2, 0.4 KB)
+0077.936 (0) Table yahru_aiowps_login_activity: Total expected rows (via COUNT): 19
+0077.937 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.940 (0) Table yahru_aiowps_login_activity: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=2717) in 0.01 seconds
+0077.947 (0) Table yahru_aiowps_login_activity: finishing file(s) (2, 0.8 KB)
+0077.952 (0) Table yahru_aiowps_login_lockdown: Total expected rows (via COUNT): 0
+0077.955 (0) Table yahru_aiowps_login_lockdown: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1084) in 0.00 seconds
+0077.968 (0) Table yahru_aiowps_login_lockdown: finishing file(s) (2, 0.5 KB)
+0077.975 (0) Table yahru_aiowps_permanent_block: Total expected rows (via COUNT): 0
+0077.977 (0) Table yahru_aiowps_permanent_block: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=791) in 0.00 seconds
+0077.980 (0) Table yahru_aiowps_permanent_block: finishing file(s) (2, 0.4 KB)
+0077.985 (0) Table yahru_e_events: Total expected rows (via COUNT): 1
+0077.986 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.989 (0) Table yahru_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=794) in 0.01 seconds
+0077.992 (0) Table yahru_e_events: finishing file(s) (2, 0.5 KB)
+0077.996 (0) Table yahru_matomo_access: Total expected rows (via COUNT): 1
+0077.997 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0077.998 (0) Table yahru_matomo_access: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=703) in 0.00 seconds
+0078.001 (0) Table yahru_matomo_access: finishing file(s) (2, 0.4 KB)
+0078.013 (0) Table yahru_matomo_archive_blob_2022_04: Total expected rows (approximate): 0
+0078.018 (0) Table yahru_matomo_archive_blob_2022_04: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=840) in 0.01 seconds
+0078.027 (0) Table yahru_matomo_archive_blob_2022_04: finishing file(s) (2, 0.4 KB)
+0078.034 (0) Table yahru_matomo_archive_blob_2022_05: Total expected rows (approximate): 0
+0078.037 (0) Table yahru_matomo_archive_blob_2022_05: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=840) in 0.00 seconds
+0078.045 (0) Table yahru_matomo_archive_blob_2022_05: finishing file(s) (2, 0.4 KB)
+0078.050 (0) Table yahru_matomo_archive_blob_2022_06: Total expected rows (approximate): 0
+0078.053 (0) Table yahru_matomo_archive_blob_2022_06: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=840) in 0.00 seconds
+0078.065 (0) Table yahru_matomo_archive_blob_2022_06: finishing file(s) (2, 0.4 KB)
+0078.073 (0) Table yahru_matomo_archive_blob_2022_07: Total expected rows (approximate): 0
+0078.076 (0) Table yahru_matomo_archive_blob_2022_07: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=840) in 0.00 seconds
+0078.084 (0) Table yahru_matomo_archive_blob_2022_07: finishing file(s) (2, 0.4 KB)
+0078.089 (0) Table yahru_matomo_archive_blob_2022_08: Total expected rows (approximate): 0
+0078.093 (0) Table yahru_matomo_archive_blob_2022_08: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=840) in 0.00 seconds
+0078.098 (0) Table yahru_matomo_archive_blob_2022_08: finishing file(s) (2, 0.4 KB)
+0078.103 (0) Table yahru_matomo_archive_blob_2022_09: Total expected rows (approximate): 0
+0078.106 (0) Table yahru_matomo_archive_blob_2022_09: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=840) in 0.00 seconds
+0078.112 (0) Table yahru_matomo_archive_blob_2022_09: finishing file(s) (2, 0.4 KB)
+0078.118 (0) Table yahru_matomo_archive_blob_2022_10: Total expected rows (approximate): 0
+0078.120 (0) Table yahru_matomo_archive_blob_2022_10: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=840) in 0.00 seconds
+0078.125 (0) Table yahru_matomo_archive_blob_2022_10: finishing file(s) (2, 0.4 KB)
+0078.130 (0) Table yahru_matomo_archive_blob_2022_11: Total expected rows (approximate): 0
+0078.134 (0) Table yahru_matomo_archive_blob_2022_11: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=840) in 0.00 seconds
+0078.141 (0) Table yahru_matomo_archive_blob_2022_11: finishing file(s) (2, 0.4 KB)
+0078.147 (0) Table yahru_matomo_archive_blob_2022_12: Total expected rows (approximate): 0
+0078.150 (0) Table yahru_matomo_archive_blob_2022_12: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=840) in 0.00 seconds
+0078.155 (0) Table yahru_matomo_archive_blob_2022_12: finishing file(s) (2, 0.4 KB)
+0078.160 (0) Table yahru_matomo_archive_blob_2023_01: Total expected rows (approximate): 8
+0078.162 (0) Table yahru_matomo_archive_blob_2023_01: Rows added in this batch (next record: 1000): 8 (uncompressed bytes in this segment=1840) in 0.00 seconds
+0078.166 (0) Table yahru_matomo_archive_blob_2023_01: finishing file(s) (2, 0.5 KB)
+0078.171 (0) Table yahru_matomo_archive_invalidations: Total expected rows (via COUNT): 5
+0078.173 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.176 (0) Table yahru_matomo_archive_invalidations: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1527) in 0.01 seconds
+0078.189 (0) Table yahru_matomo_archive_invalidations: finishing file(s) (2, 0.6 KB)
+0078.197 (0) Table yahru_matomo_archive_numeric_2022_04: Total expected rows (approximate): 0
+0078.200 (0) Table yahru_matomo_archive_numeric_2022_04: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0078.207 (0) Table yahru_matomo_archive_numeric_2022_04: finishing file(s) (2, 0.4 KB)
+0078.214 (0) Table yahru_matomo_archive_numeric_2022_05: Total expected rows (approximate): 0
+0078.219 (0) Table yahru_matomo_archive_numeric_2022_05: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=939) in 0.01 seconds
+0078.223 (0) Table yahru_matomo_archive_numeric_2022_05: finishing file(s) (2, 0.4 KB)
+0078.226 (0) Table yahru_matomo_archive_numeric_2022_06: Total expected rows (approximate): 0
+0078.228 (0) Table yahru_matomo_archive_numeric_2022_06: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0078.232 (0) Table yahru_matomo_archive_numeric_2022_06: finishing file(s) (2, 0.4 KB)
+0078.235 (0) Table yahru_matomo_archive_numeric_2022_07: Total expected rows (approximate): 0
+0078.236 (0) Table yahru_matomo_archive_numeric_2022_07: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0078.238 (0) Table yahru_matomo_archive_numeric_2022_07: finishing file(s) (2, 0.4 KB)
+0078.241 (0) Table yahru_matomo_archive_numeric_2022_08: Total expected rows (approximate): 0
+0078.242 (0) Table yahru_matomo_archive_numeric_2022_08: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0078.244 (0) Table yahru_matomo_archive_numeric_2022_08: finishing file(s) (2, 0.4 KB)
+0078.246 (0) Table yahru_matomo_archive_numeric_2022_09: Total expected rows (approximate): 0
+0078.247 (0) Table yahru_matomo_archive_numeric_2022_09: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0078.249 (0) Table yahru_matomo_archive_numeric_2022_09: finishing file(s) (2, 0.4 KB)
+0078.254 (0) Table yahru_matomo_archive_numeric_2022_10: Total expected rows (approximate): 0
+0078.256 (0) Table yahru_matomo_archive_numeric_2022_10: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0078.259 (0) Table yahru_matomo_archive_numeric_2022_10: finishing file(s) (2, 0.4 KB)
+0078.263 (0) Table yahru_matomo_archive_numeric_2022_11: Total expected rows (approximate): 0
+0078.266 (0) Table yahru_matomo_archive_numeric_2022_11: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0078.272 (0) Table yahru_matomo_archive_numeric_2022_11: finishing file(s) (2, 0.4 KB)
+0078.275 (0) Table yahru_matomo_archive_numeric_2022_12: Total expected rows (approximate): 0
+0078.276 (0) Table yahru_matomo_archive_numeric_2022_12: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0078.279 (0) Table yahru_matomo_archive_numeric_2022_12: finishing file(s) (2, 0.4 KB)
+0078.285 (0) Table yahru_matomo_archive_numeric_2023_01: Total expected rows (approximate): 9
+0078.287 (0) Table yahru_matomo_archive_numeric_2023_01: Rows added in this batch (next record: 1000): 9 (uncompressed bytes in this segment=1895) in 0.00 seconds
+0078.295 (0) Table yahru_matomo_archive_numeric_2023_01: finishing file(s) (2, 0.6 KB)
+0078.300 (0) Table yahru_matomo_brute_force_log: Total expected rows (via COUNT): 0
+0078.303 (0) Table yahru_matomo_brute_force_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=678) in 0.00 seconds
+0078.307 (0) Table yahru_matomo_brute_force_log: finishing file(s) (2, 0.4 KB)
+0078.313 (0) Table yahru_matomo_changes: Total expected rows (via COUNT): 1
+0078.314 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.317 (0) Table yahru_matomo_changes: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1209) in 0.01 seconds
+0078.320 (0) Table yahru_matomo_changes: finishing file(s) (2, 0.7 KB)
+0078.324 (0) Table yahru_matomo_custom_dimensions: Total expected rows (approximate): 0
+0078.326 (0) Table yahru_matomo_custom_dimensions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=906) in 0.00 seconds
+0078.344 (0) Table yahru_matomo_custom_dimensions: finishing file(s) (2, 0.4 KB)
+0078.350 (0) Table yahru_matomo_goal: Total expected rows (approximate): 0
+0078.355 (0) Table yahru_matomo_goal: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=860) in 0.01 seconds
+0078.362 (0) Table yahru_matomo_goal: finishing file(s) (2, 0.4 KB)
+0078.371 (0) Table yahru_matomo_locks: Total expected rows (approximate): 0
+0078.373 (0) Table yahru_matomo_locks: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=512) in 0.00 seconds
+0078.382 (0) Table yahru_matomo_locks: finishing file(s) (2, 0.3 KB)
+0078.395 (0) Table yahru_matomo_log_action: Total expected rows (via COUNT): 13
+0078.397 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.402 (0) Table yahru_matomo_log_action: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=1678) in 0.01 seconds
+0078.406 (0) Table yahru_matomo_log_action: finishing file(s) (2, 0.8 KB)
+0078.415 (0) Table yahru_matomo_log_conversion: Total expected rows (approximate): 0
+0078.426 (0) Table yahru_matomo_log_conversion: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=2395) in 0.01 seconds
+0078.432 (0) Table yahru_matomo_log_conversion: finishing file(s) (2, 0.7 KB)
+0078.441 (0) Table yahru_matomo_log_conversion_item: Total expected rows (approximate): 0
+0078.445 (0) Table yahru_matomo_log_conversion_item: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1191) in 0.00 seconds
+0078.451 (0) Table yahru_matomo_log_conversion_item: finishing file(s) (2, 0.5 KB)
+0078.458 (0) Table yahru_matomo_log_link_visit_action: Total expected rows (via COUNT): 16
+0078.459 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.462 (0) Table yahru_matomo_log_link_visit_action: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=6805) in 0.01 seconds
+0078.466 (0) Table yahru_matomo_log_link_visit_action: finishing file(s) (2, 1.3 KB)
+0078.471 (0) Table yahru_matomo_log_profiling: Total expected rows (via COUNT): 0
+0078.473 (0) Table yahru_matomo_log_profiling: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.00 seconds
+0078.477 (0) Table yahru_matomo_log_profiling: finishing file(s) (2, 0.4 KB)
+0078.480 (0) Table yahru_matomo_log_visit: Total expected rows (via COUNT): 3
+0078.482 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.486 (0) Table yahru_matomo_log_visit: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=5066) in 0.01 seconds
+0078.492 (0) Table yahru_matomo_log_visit: finishing file(s) (2, 1.5 KB)
+0078.497 (0) Table yahru_matomo_logger_message: Total expected rows (via COUNT): 0
+0078.510 (0) Table yahru_matomo_logger_message: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.02 seconds
+0078.523 (0) Table yahru_matomo_logger_message: finishing file(s) (2, 0.4 KB)
+0078.527 (0) Table yahru_matomo_option: Total expected rows (approximate): 161
+0078.532 (0) Table yahru_matomo_option: Rows added in this batch (next record: 1000): 161 (uncompressed bytes in this segment=12240) in 0.01 seconds
+0078.538 (0) Table yahru_matomo_option: finishing file(s) (2, 2.8 KB)
+0078.545 (0) Table yahru_matomo_plugin_setting: Total expected rows (via COUNT): 0
+0078.546 (0) Table yahru_matomo_plugin_setting: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=793) in 0.01 seconds
+0078.554 (0) Table yahru_matomo_plugin_setting: finishing file(s) (2, 0.4 KB)
+0078.559 (0) Table yahru_matomo_privacy_logdata_anonymizations: Total expected rows (via COUNT): 0
+0078.561 (0) Table yahru_matomo_privacy_logdata_anonymizations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1295) in 0.00 seconds
+0078.566 (0) Table yahru_matomo_privacy_logdata_anonymizations: finishing file(s) (2, 0.5 KB)
+0078.574 (0) Table yahru_matomo_report: Total expected rows (via COUNT): 0
+0078.576 (0) Table yahru_matomo_report: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1088) in 0.00 seconds
+0078.579 (0) Table yahru_matomo_report: finishing file(s) (2, 0.5 KB)
+0078.584 (0) Table yahru_matomo_report_subscriptions: Total expected rows (approximate): 0
+0078.587 (0) Table yahru_matomo_report_subscriptions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=766) in 0.00 seconds
+0078.591 (0) Table yahru_matomo_report_subscriptions: finishing file(s) (2, 0.4 KB)
+0078.599 (0) Table yahru_matomo_segment: Total expected rows (via COUNT): 0
+0078.602 (0) Table yahru_matomo_segment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=878) in 0.01 seconds
+0078.606 (0) Table yahru_matomo_segment: finishing file(s) (2, 0.4 KB)
+0078.611 (0) Table yahru_matomo_sequence: Total expected rows (approximate): 10
+0078.615 (0) Table yahru_matomo_sequence: Rows added in this batch (next record: 1000): 10 (uncompressed bytes in this segment=984) in 0.01 seconds
+0078.620 (0) Table yahru_matomo_sequence: finishing file(s) (2, 0.4 KB)
+0078.623 (0) Table yahru_matomo_session: Total expected rows (approximate): 1
+0078.624 (0) Table yahru_matomo_session: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=841) in 0.00 seconds
+0078.627 (0) Table yahru_matomo_session: finishing file(s) (2, 0.6 KB)
+0078.631 (0) Table yahru_matomo_site: Total expected rows (via COUNT): 1
+0078.632 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.634 (0) Table yahru_matomo_site: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1380) in 0.00 seconds
+0078.640 (0) Table yahru_matomo_site: finishing file(s) (2, 0.6 KB)
+0078.651 (0) Table yahru_matomo_site_setting: Total expected rows (via COUNT): 0
+0078.657 (0) Table yahru_matomo_site_setting: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=757) in 0.01 seconds
+0078.663 (0) Table yahru_matomo_site_setting: finishing file(s) (2, 0.4 KB)
+0078.667 (0) Table yahru_matomo_site_url: Total expected rows (approximate): 0
+0078.670 (0) Table yahru_matomo_site_url: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=485) in 0.00 seconds
+0078.674 (0) Table yahru_matomo_site_url: finishing file(s) (2, 0.3 KB)
+0078.679 (0) Table yahru_matomo_tagmanager_container: Total expected rows (approximate): 0
+0078.682 (0) Table yahru_matomo_tagmanager_container: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=869) in 0.00 seconds
+0078.688 (0) Table yahru_matomo_tagmanager_container: finishing file(s) (2, 0.4 KB)
+0078.694 (0) Table yahru_matomo_tagmanager_container_release: Total expected rows (via COUNT): 0
+0078.696 (0) Table yahru_matomo_tagmanager_container_release: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=977) in 0.00 seconds
+0078.700 (0) Table yahru_matomo_tagmanager_container_release: finishing file(s) (2, 0.4 KB)
+0078.710 (0) Table yahru_matomo_tagmanager_container_version: Total expected rows (via COUNT): 0
+0078.712 (0) Table yahru_matomo_tagmanager_container_version: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1075) in 0.00 seconds
+0078.717 (0) Table yahru_matomo_tagmanager_container_version: finishing file(s) (2, 0.5 KB)
+0078.723 (0) Table yahru_matomo_tagmanager_tag: Total expected rows (via COUNT): 0
+0078.725 (0) Table yahru_matomo_tagmanager_tag: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1279) in 0.00 seconds
+0078.729 (0) Table yahru_matomo_tagmanager_tag: finishing file(s) (2, 0.5 KB)
+0078.733 (0) Table yahru_matomo_tagmanager_trigger: Total expected rows (via COUNT): 0
+0078.735 (0) Table yahru_matomo_tagmanager_trigger: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1031) in 0.00 seconds
+0078.737 (0) Table yahru_matomo_tagmanager_trigger: finishing file(s) (2, 0.5 KB)
+0078.742 (0) Table yahru_matomo_tagmanager_variable: Total expected rows (via COUNT): 0
+0078.744 (0) Table yahru_matomo_tagmanager_variable: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1078) in 0.00 seconds
+0078.747 (0) Table yahru_matomo_tagmanager_variable: finishing file(s) (2, 0.5 KB)
+0078.750 (0) Table yahru_matomo_tracking_failure: Total expected rows (approximate): 0
+0078.753 (0) Table yahru_matomo_tracking_failure: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=636) in 0.00 seconds
+0078.757 (0) Table yahru_matomo_tracking_failure: finishing file(s) (2, 0.4 KB)
+0078.761 (0) Table yahru_matomo_twofactor_recovery_code: Total expected rows (via COUNT): 0
+0078.763 (0) Table yahru_matomo_twofactor_recovery_code: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.00 seconds
+0078.767 (0) Table yahru_matomo_twofactor_recovery_code: finishing file(s) (2, 0.3 KB)
+0078.770 (0) Table yahru_matomo_user: Total expected rows (approximate): 2
+0078.771 (0) Table yahru_matomo_user: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=1483) in 0.00 seconds
+0078.773 (0) Table yahru_matomo_user: finishing file(s) (2, 0.7 KB)
+0078.776 (0) Table yahru_matomo_user_dashboard: Total expected rows (approximate): 0
+0078.777 (0) Table yahru_matomo_user_dashboard: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=607) in 0.00 seconds
+0078.780 (0) Table yahru_matomo_user_dashboard: finishing file(s) (2, 0.4 KB)
+0078.783 (0) Table yahru_matomo_user_language: Total expected rows (approximate): 2
+0078.785 (0) Table yahru_matomo_user_language: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=684) in 0.00 seconds
+0078.794 (0) Table yahru_matomo_user_language: finishing file(s) (2, 0.4 KB)
+0078.800 (0) Table yahru_matomo_user_token_auth: Total expected rows (via COUNT): 0
+0078.801 (0) Table yahru_matomo_user_token_auth: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=891) in 0.00 seconds
+0078.806 (0) Table yahru_matomo_user_token_auth: finishing file(s) (2, 0.5 KB)
+0078.813 (0) Table yahru_wpbs_booking_meta: Total expected rows (via COUNT): 0
+0078.816 (0) Table yahru_wpbs_booking_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=670) in 0.01 seconds
+0078.820 (0) Table yahru_wpbs_booking_meta: finishing file(s) (2, 0.4 KB)
+0078.826 (0) Table yahru_wpbs_bookings: Total expected rows (via COUNT): 0
+0078.828 (0) Table yahru_wpbs_bookings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0078.831 (0) Table yahru_wpbs_bookings: finishing file(s) (2, 0.4 KB)
+0078.837 (0) Table yahru_wpbs_calendar_meta: Total expected rows (via COUNT): 1
+0078.838 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.842 (0) Table yahru_wpbs_calendar_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=787) in 0.01 seconds
+0078.846 (0) Table yahru_wpbs_calendar_meta: finishing file(s) (2, 0.4 KB)
+0078.850 (0) Table yahru_wpbs_calendars: Total expected rows (via COUNT): 1
+0078.851 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.852 (0) Table yahru_wpbs_calendars: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=771) in 0.00 seconds
+0078.854 (0) Table yahru_wpbs_calendars: finishing file(s) (2, 0.5 KB)
+0078.860 (0) Table yahru_wpbs_event_meta: Total expected rows (via COUNT): 0
+0078.862 (0) Table yahru_wpbs_event_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=652) in 0.00 seconds
+0078.866 (0) Table yahru_wpbs_event_meta: finishing file(s) (2, 0.4 KB)
+0078.872 (0) Table yahru_wpbs_events: Total expected rows (via COUNT): 10
+0078.873 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.876 (0) Table yahru_wpbs_events: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1209) in 0.01 seconds
+0078.881 (0) Table yahru_wpbs_events: finishing file(s) (2, 0.5 KB)
+0078.889 (0) Table yahru_wpbs_form_meta: Total expected rows (via COUNT): 9
+0078.890 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.892 (0) Table yahru_wpbs_form_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1285) in 0.01 seconds
+0078.896 (0) Table yahru_wpbs_form_meta: finishing file(s) (2, 0.7 KB)
+0078.902 (0) Table yahru_wpbs_forms: Total expected rows (via COUNT): 1
+0078.903 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.904 (0) Table yahru_wpbs_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1629) in 0.01 seconds
+0078.907 (0) Table yahru_wpbs_forms: finishing file(s) (2, 0.6 KB)
+0078.914 (0) Table yahru_wpbs_legend_item_meta: Total expected rows (via COUNT): 62
+0078.915 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.918 (0) Table yahru_wpbs_legend_item_meta: Rows added in this batch (next record: 62): 62 (uncompressed bytes in this segment=3426) in 0.01 seconds
+0078.922 (0) Table yahru_wpbs_legend_item_meta: finishing file(s) (2, 1.3 KB)
+0078.925 (0) Table yahru_wpbs_legend_items: Total expected rows (via COUNT): 4
+0078.926 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.928 (0) Table yahru_wpbs_legend_items: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1154) in 0.00 seconds
+0078.932 (0) Table yahru_wpbs_legend_items: finishing file(s) (2, 0.5 KB)
+0078.940 (0) Table yahru_wpforms_tasks_meta: Total expected rows (via COUNT): 7
+0078.941 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.942 (0) Table yahru_wpforms_tasks_meta: Rows added in this batch (next record: 10): 7 (uncompressed bytes in this segment=1159) in 0.01 seconds
+0078.945 (0) Table yahru_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0078.949 (0) Table yahru_wpmailsmtp_debug_events: Total expected rows (via COUNT): 0
+0078.954 (0) Table yahru_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.01 seconds
+0078.956 (0) Table yahru_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0078.961 (0) Table yahru_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 0
+0078.963 (0) Table yahru_wpmailsmtp_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=596) in 0.00 seconds
+0078.967 (0) Table yahru_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0078.974 (0) Table yahru_yoast_indexable: Total expected rows (via COUNT): 74
+0078.975 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.981 (0) Table yahru_yoast_indexable: Rows added in this batch (next record: 174): 74 (uncompressed bytes in this segment=56609) in 0.01 seconds
+0078.988 (0) Table yahru_yoast_indexable: finishing file(s) (2, 7.6 KB)
+0078.992 (0) Table yahru_yoast_indexable_hierarchy: Total expected rows (approximate): 33
+0078.998 (0) Table yahru_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 33 (uncompressed bytes in this segment=1353) in 0.01 seconds
+0079.003 (0) Table yahru_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0079.008 (0) Table yahru_yoast_migrations: Total expected rows (via COUNT): 23
+0079.009 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0079.014 (0) Table yahru_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1233) in 0.01 seconds
+0079.018 (0) Table yahru_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0079.022 (0) Table yahru_yoast_primary_term: Total expected rows (via COUNT): 0
+0079.026 (0) Table yahru_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.01 seconds
+0079.030 (0) Table yahru_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0079.036 (0) Table yahru_yoast_seo_links: Total expected rows (via COUNT): 63
+0079.037 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0079.042 (0) Table yahru_yoast_seo_links: Rows added in this batch (next record: 70): 63 (uncompressed bytes in this segment=10080) in 0.01 seconds
+0079.045 (0) Table yahru_yoast_seo_links: finishing file(s) (2, 1.9 KB)
+0079.047 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/chalets-et-caviar.dew-it.dev/wp-content/updraft/backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db.gz (line 1924, wp-content/plugins/updraftplus/backup.php)
+0079.048 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_options.table.tmpr82775.gz (1/99/fopen): adding to final database dump
+0079.050 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_options.table.gz (2/99/fopen): adding to final database dump
+0079.051 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_users.table.tmpr5.gz (3/99/fopen): adding to final database dump
+0079.051 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_users.table.gz (4/99/fopen): adding to final database dump
+0079.052 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_usermeta.table.tmpr141.gz (5/99/fopen): adding to final database dump
+0079.053 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_usermeta.table.gz (6/99/fopen): adding to final database dump
+0079.053 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_actionscheduler_actions.table.tmpr430.gz (7/99/fopen): adding to final database dump
+0079.055 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_actionscheduler_actions.table.gz (8/99/fopen): adding to final database dump
+0079.056 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_actionscheduler_claims.table.tmpr0.gz (9/99/fopen): adding to final database dump
+0079.056 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_actionscheduler_claims.table.gz (10/99/fopen): adding to final database dump
+0079.057 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_actionscheduler_groups.table.tmpr4.gz (11/99/fopen): adding to final database dump
+0079.057 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_actionscheduler_groups.table.gz (12/99/fopen): adding to final database dump
+0079.058 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_actionscheduler_logs.table.tmpr196.gz (13/99/fopen): adding to final database dump
+0079.059 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_actionscheduler_logs.table.gz (14/99/fopen): adding to final database dump
+0079.059 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_commentmeta.table.tmpr0.gz (15/99/fopen): adding to final database dump
+0079.060 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_commentmeta.table.gz (16/99/fopen): adding to final database dump
+0079.060 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_comments.table.tmpr3.gz (17/99/fopen): adding to final database dump
+0079.061 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_comments.table.gz (18/99/fopen): adding to final database dump
+0079.062 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_links.table.tmpr0.gz (19/99/fopen): adding to final database dump
+0079.063 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_links.table.gz (20/99/fopen): adding to final database dump
+0079.063 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_postmeta.table.tmpr4482.gz (21/99/fopen): adding to final database dump
+0079.066 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_postmeta.table.gz (22/99/fopen): adding to final database dump
+0079.067 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_posts.table.tmpr759.gz (23/99/fopen): adding to final database dump
+0079.070 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_posts.table.gz (24/99/fopen): adding to final database dump
+0079.070 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_term_relationships.table.tmpr100001.gz (25/99/fopen): adding to final database dump
+0079.071 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_term_relationships.table.gz (26/99/fopen): adding to final database dump
+0079.072 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_term_taxonomy.table.tmpr17.gz (27/99/fopen): adding to final database dump
+0079.072 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_term_taxonomy.table.gz (28/99/fopen): adding to final database dump
+0079.073 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_termmeta.table.tmpr0.gz (29/99/fopen): adding to final database dump
+0079.073 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_termmeta.table.gz (30/99/fopen): adding to final database dump
+0079.074 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_terms.table.tmpr17.gz (31/99/fopen): adding to final database dump
+0079.074 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_terms.table.gz (32/99/fopen): adding to final database dump
+0079.075 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_debug_log.table.tmpr0.gz (33/99/fopen): adding to final database dump
+0079.075 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_debug_log.table.gz (34/99/fopen): adding to final database dump
+0079.076 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_events.table.tmpr3291.gz (35/99/fopen): adding to final database dump
+0079.077 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_events.table.gz (36/99/fopen): adding to final database dump
+0079.078 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_failed_logins.table.tmpr2.gz (37/99/fopen): adding to final database dump
+0079.078 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_failed_logins.table.gz (38/99/fopen): adding to final database dump
+0079.079 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_global_meta.table.tmpr0.gz (39/99/fopen): adding to final database dump
+0079.079 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_global_meta.table.gz (40/99/fopen): adding to final database dump
+0079.080 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_login_activity.table.tmpr20.gz (41/99/fopen): adding to final database dump
+0079.080 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_login_activity.table.gz (42/99/fopen): adding to final database dump
+0079.081 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_login_lockdown.table.tmpr0.gz (43/99/fopen): adding to final database dump
+0079.081 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_login_lockdown.table.gz (44/99/fopen): adding to final database dump
+0079.082 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_permanent_block.table.tmpr0.gz (45/99/fopen): adding to final database dump
+0079.082 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_aiowps_permanent_block.table.gz (46/99/fopen): adding to final database dump
+0079.083 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_e_events.table.tmpr2.gz (47/99/fopen): adding to final database dump
+0079.083 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_e_events.table.gz (48/99/fopen): adding to final database dump
+0079.084 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_access.table.tmpr2.gz (49/99/fopen): adding to final database dump
+0079.084 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_access.table.gz (50/99/fopen): adding to final database dump
+0079.085 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_04.table.tmpr1.gz (51/99/fopen): adding to final database dump
+0079.085 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_04.table.gz (52/99/fopen): adding to final database dump
+0079.086 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_05.table.tmpr1.gz (53/99/fopen): adding to final database dump
+0079.086 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_05.table.gz (54/99/fopen): adding to final database dump
+0079.087 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_06.table.tmpr1.gz (55/99/fopen): adding to final database dump
+0079.087 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_06.table.gz (56/99/fopen): adding to final database dump
+0079.088 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_07.table.tmpr1.gz (57/99/fopen): adding to final database dump
+0079.088 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_07.table.gz (58/99/fopen): adding to final database dump
+0079.089 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_08.table.tmpr1.gz (59/99/fopen): adding to final database dump
+0079.094 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_08.table.gz (60/99/fopen): adding to final database dump
+0079.095 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_09.table.tmpr1.gz (61/99/fopen): adding to final database dump
+0079.096 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_09.table.gz (62/99/fopen): adding to final database dump
+0079.097 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_10.table.tmpr1.gz (63/99/fopen): adding to final database dump
+0079.098 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_10.table.gz (64/99/fopen): adding to final database dump
+0079.098 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_11.table.tmpr1.gz (65/99/fopen): adding to final database dump
+0079.101 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_11.table.gz (66/99/fopen): adding to final database dump
+0079.103 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_12.table.tmpr1.gz (67/99/fopen): adding to final database dump
+0079.103 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2022_12.table.gz (68/99/fopen): adding to final database dump
+0079.104 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2023_01.table.tmpr1001.gz (69/99/fopen): adding to final database dump
+0079.105 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_blob_2023_01.table.gz (70/99/fopen): adding to final database dump
+0079.105 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_invalidations.table.tmpr6.gz (71/99/fopen): adding to final database dump
+0079.106 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_invalidations.table.gz (72/99/fopen): adding to final database dump
+0079.106 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_04.table.tmpr1.gz (73/99/fopen): adding to final database dump
+0079.107 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_04.table.gz (74/99/fopen): adding to final database dump
+0079.108 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_05.table.tmpr1.gz (75/99/fopen): adding to final database dump
+0079.109 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_05.table.gz (76/99/fopen): adding to final database dump
+0079.110 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_06.table.tmpr1.gz (77/99/fopen): adding to final database dump
+0079.111 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_06.table.gz (78/99/fopen): adding to final database dump
+0079.111 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_07.table.tmpr1.gz (79/99/fopen): adding to final database dump
+0079.112 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_07.table.gz (80/99/fopen): adding to final database dump
+0079.113 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_08.table.tmpr1.gz (81/99/fopen): adding to final database dump
+0079.115 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_08.table.gz (82/99/fopen): adding to final database dump
+0079.116 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_09.table.tmpr1.gz (83/99/fopen): adding to final database dump
+0079.116 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_09.table.gz (84/99/fopen): adding to final database dump
+0079.117 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_10.table.tmpr1.gz (85/99/fopen): adding to final database dump
+0079.117 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_10.table.gz (86/99/fopen): adding to final database dump
+0079.118 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_11.table.tmpr1.gz (87/99/fopen): adding to final database dump
+0079.119 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_11.table.gz (88/99/fopen): adding to final database dump
+0079.119 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_12.table.tmpr1.gz (89/99/fopen): adding to final database dump
+0079.120 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2022_12.table.gz (90/99/fopen): adding to final database dump
+0079.120 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2023_01.table.tmpr1001.gz (91/99/fopen): adding to final database dump
+0079.121 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_archive_numeric_2023_01.table.gz (92/99/fopen): adding to final database dump
+0079.122 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_brute_force_log.table.tmpr0.gz (93/99/fopen): adding to final database dump
+0079.122 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_brute_force_log.table.gz (94/99/fopen): adding to final database dump
+0079.123 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_changes.table.tmpr2.gz (95/99/fopen): adding to final database dump
+0079.124 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_changes.table.gz (96/99/fopen): adding to final database dump
+0079.124 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_custom_dimensions.table.tmpr1.gz (97/99/fopen): adding to final database dump
+0079.125 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_custom_dimensions.table.gz (98/99/fopen): adding to final database dump
+0079.126 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_goal.table.tmpr1.gz (99/99/fopen): adding to final database dump
+0079.128 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_goal.table.gz (100/99/fopen): adding to final database dump
+0079.128 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_locks.table.tmpr1.gz (101/99/fopen): adding to final database dump
+0079.129 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_locks.table.gz (102/99/fopen): adding to final database dump
+0079.130 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_action.table.tmpr14.gz (103/99/fopen): adding to final database dump
+0079.130 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_action.table.gz (104/99/fopen): adding to final database dump
+0079.131 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_conversion.table.tmpr1.gz (105/99/fopen): adding to final database dump
+0079.131 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_conversion.table.gz (106/99/fopen): adding to final database dump
+0079.132 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_conversion_item.table.tmpr1.gz (107/99/fopen): adding to final database dump
+0079.133 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_conversion_item.table.gz (108/99/fopen): adding to final database dump
+0079.133 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_link_visit_action.table.tmpr17.gz (109/99/fopen): adding to final database dump
+0079.134 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_link_visit_action.table.gz (110/99/fopen): adding to final database dump
+0079.135 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_profiling.table.tmpr0.gz (111/99/fopen): adding to final database dump
+0079.135 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_profiling.table.gz (112/99/fopen): adding to final database dump
+0079.136 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_visit.table.tmpr4.gz (113/99/fopen): adding to final database dump
+0079.136 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_log_visit.table.gz (114/99/fopen): adding to final database dump
+0079.137 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_logger_message.table.tmpr0.gz (115/99/fopen): adding to final database dump
+0079.137 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_logger_message.table.gz (116/99/fopen): adding to final database dump
+0079.138 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_option.table.tmpr1001.gz (117/99/fopen): adding to final database dump
+0079.139 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_option.table.gz (118/99/fopen): adding to final database dump
+0079.139 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_plugin_setting.table.tmpr0.gz (119/99/fopen): adding to final database dump
+0079.140 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_plugin_setting.table.gz (120/99/fopen): adding to final database dump
+0079.140 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_privacy_logdata_anonymizations.table.tmpr0.gz (121/99/fopen): adding to final database dump
+0079.141 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_privacy_logdata_anonymizations.table.gz (122/99/fopen): adding to final database dump
+0079.142 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_report.table.tmpr0.gz (123/99/fopen): adding to final database dump
+0079.142 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_report.table.gz (124/99/fopen): adding to final database dump
+0079.143 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_report_subscriptions.table.tmpr1.gz (125/99/fopen): adding to final database dump
+0079.144 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_report_subscriptions.table.gz (126/99/fopen): adding to final database dump
+0079.144 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_segment.table.tmpr0.gz (127/99/fopen): adding to final database dump
+0079.145 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_segment.table.gz (128/99/fopen): adding to final database dump
+0079.145 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_sequence.table.tmpr1001.gz (129/99/fopen): adding to final database dump
+0079.146 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_sequence.table.gz (130/99/fopen): adding to final database dump
+0079.146 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_session.table.tmpr1001.gz (131/99/fopen): adding to final database dump
+0079.147 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_session.table.gz (132/99/fopen): adding to final database dump
+0079.147 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_site.table.tmpr2.gz (133/99/fopen): adding to final database dump
+0079.148 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_site.table.gz (134/99/fopen): adding to final database dump
+0079.149 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_site_setting.table.tmpr0.gz (135/99/fopen): adding to final database dump
+0079.149 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_site_setting.table.gz (136/99/fopen): adding to final database dump
+0079.150 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_site_url.table.tmpr1.gz (137/99/fopen): adding to final database dump
+0079.151 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_site_url.table.gz (138/99/fopen): adding to final database dump
+0079.151 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_container.table.tmpr1.gz (139/99/fopen): adding to final database dump
+0079.153 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_container.table.gz (140/99/fopen): adding to final database dump
+0079.154 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_container_release.table.tmpr0.gz (141/99/fopen): adding to final database dump
+0079.155 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_container_release.table.gz (142/99/fopen): adding to final database dump
+0079.155 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_container_version.table.tmpr0.gz (143/99/fopen): adding to final database dump
+0079.156 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_container_version.table.gz (144/99/fopen): adding to final database dump
+0079.156 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_tag.table.tmpr0.gz (145/99/fopen): adding to final database dump
+0079.157 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_tag.table.gz (146/99/fopen): adding to final database dump
+0079.158 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_trigger.table.tmpr0.gz (147/99/fopen): adding to final database dump
+0079.158 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_trigger.table.gz (148/99/fopen): adding to final database dump
+0079.159 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_variable.table.tmpr0.gz (149/99/fopen): adding to final database dump
+0079.159 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tagmanager_variable.table.gz (150/99/fopen): adding to final database dump
+0079.160 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tracking_failure.table.tmpr1.gz (151/99/fopen): adding to final database dump
+0079.161 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_tracking_failure.table.gz (152/99/fopen): adding to final database dump
+0079.161 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_twofactor_recovery_code.table.tmpr0.gz (153/99/fopen): adding to final database dump
+0079.162 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_twofactor_recovery_code.table.gz (154/99/fopen): adding to final database dump
+0079.163 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_user.table.tmpr1001.gz (155/99/fopen): adding to final database dump
+0079.163 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_user.table.gz (156/99/fopen): adding to final database dump
+0079.164 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_user_dashboard.table.tmpr1.gz (157/99/fopen): adding to final database dump
+0079.165 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_user_dashboard.table.gz (158/99/fopen): adding to final database dump
+0079.165 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_user_language.table.tmpr1001.gz (159/99/fopen): adding to final database dump
+0079.166 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_user_language.table.gz (160/99/fopen): adding to final database dump
+0079.166 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_user_token_auth.table.tmpr0.gz (161/99/fopen): adding to final database dump
+0079.167 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_matomo_user_token_auth.table.gz (162/99/fopen): adding to final database dump
+0079.167 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_booking_meta.table.tmpr0.gz (163/99/fopen): adding to final database dump
+0079.168 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_booking_meta.table.gz (164/99/fopen): adding to final database dump
+0079.169 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_bookings.table.tmpr0.gz (165/99/fopen): adding to final database dump
+0079.169 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_bookings.table.gz (166/99/fopen): adding to final database dump
+0079.170 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_calendar_meta.table.tmpr2.gz (167/99/fopen): adding to final database dump
+0079.170 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_calendar_meta.table.gz (168/99/fopen): adding to final database dump
+0079.170 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_calendars.table.tmpr2.gz (169/99/fopen): adding to final database dump
+0079.171 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_calendars.table.gz (170/99/fopen): adding to final database dump
+0079.171 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_event_meta.table.tmpr0.gz (171/99/fopen): adding to final database dump
+0079.172 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_event_meta.table.gz (172/99/fopen): adding to final database dump
+0079.172 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_events.table.tmpr11.gz (173/99/fopen): adding to final database dump
+0079.173 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_events.table.gz (174/99/fopen): adding to final database dump
+0079.173 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_form_meta.table.tmpr10.gz (175/99/fopen): adding to final database dump
+0079.174 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_form_meta.table.gz (176/99/fopen): adding to final database dump
+0079.174 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_forms.table.tmpr2.gz (177/99/fopen): adding to final database dump
+0079.174 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_forms.table.gz (178/99/fopen): adding to final database dump
+0079.175 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_legend_item_meta.table.tmpr63.gz (179/99/fopen): adding to final database dump
+0079.175 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_legend_item_meta.table.gz (180/99/fopen): adding to final database dump
+0079.176 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_legend_items.table.tmpr5.gz (181/99/fopen): adding to final database dump
+0079.177 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpbs_legend_items.table.gz (182/99/fopen): adding to final database dump
+0079.177 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpforms_tasks_meta.table.tmpr11.gz (183/99/fopen): adding to final database dump
+0079.178 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpforms_tasks_meta.table.gz (184/99/fopen): adding to final database dump
+0079.178 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpmailsmtp_debug_events.table.tmpr0.gz (185/99/fopen): adding to final database dump
+0079.178 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpmailsmtp_debug_events.table.gz (186/99/fopen): adding to final database dump
+0079.179 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpmailsmtp_tasks_meta.table.tmpr0.gz (187/99/fopen): adding to final database dump
+0079.179 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_wpmailsmtp_tasks_meta.table.gz (188/99/fopen): adding to final database dump
+0079.180 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_indexable.table.tmpr175.gz (189/99/fopen): adding to final database dump
+0079.180 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_indexable.table.gz (190/99/fopen): adding to final database dump
+0079.181 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_indexable_hierarchy.table.tmpr1001.gz (191/99/fopen): adding to final database dump
+0079.181 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_indexable_hierarchy.table.gz (192/99/fopen): adding to final database dump
+0079.181 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_migrations.table.tmpr24.gz (193/99/fopen): adding to final database dump
+0079.182 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_migrations.table.gz (194/99/fopen): adding to final database dump
+0079.182 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_primary_term.table.tmpr0.gz (195/99/fopen): adding to final database dump
+0079.183 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_primary_term.table.gz (196/99/fopen): adding to final database dump
+0079.183 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_seo_links.table.tmpr71.gz (197/99/fopen): adding to final database dump
+0079.184 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db-table-yahru_yoast_seo_links.table.gz (198/99/fopen): adding to final database dump
+0079.190 (0) Une erreur s’est produite lors de la tentative de récupération de l’état de routine (Cannot load from mysql.proc. The table is probably corrupted - SHOW FUNCTION STATUS WHERE DB = 'cec_wordpress')
+0079.193 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db.gz: finished writing out complete database file (583.7 KB)
+0079.207 (0) Total database tables backed up: 99 (backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db.gz, size: 597863, sha1: 6f999ed746dd9293d4d1f0fe0ed4cb6dc269f3c8, sha256: 3606b3343f847244788632cc608d712413eb24add4b778c9599ad48847d0090c)
+0079.211 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2864, wp-content/plugins/updraftplus/backup.php)
+0079.214 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-plugins.zip: plugins: This file has already been successfully uploaded
+0079.214 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-themes.zip: themes: This file has already been successfully uploaded
+0079.215 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-uploads.zip: uploads: This file has already been successfully uploaded
+0079.215 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-others.zip: others: This file has already been successfully uploaded
+0079.216 (0) backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db.gz: db: This file has not yet been successfully uploaded: will queue
+0079.217 (0) Saving backup history. Total backup size: 214.9 MB
+0079.218 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0079.220 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0079.221 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-1cc32e50377813ca763b0ed449e86c7f)
+0079.362 (0) FTP: upload attempt: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db.gz -> ftp://echo@178.63.9.180:5757/rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db.gz
+0079.451 (0) Ftp chunked upload: 88.4 % uploaded
+0079.496 (0) FTP: upload attempt successful (583.9KB in 0.13s)
+0079.497 (0) Recording as successfully uploaded: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db.gz
+0079.500 (0) Deleting local file: backup_2023-01-05-0121_Chalets_et_Caviar_505e6bc6f624-db.gz: OK
+0079.503 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0079.505 (0) Number of backup sets in history: 3; groups (db): 1
+0079.505 (0) Examining (for databases) backup set with group_id=0, nonce=505e6bc6f624, datestamp=1672881679 (Jan 05 2023 01:21:19)
+0079.506 (0) This backup set is the backup set just made, so will not be deleted.
+0079.506 (0) Examining (for databases) backup set with group_id=0, nonce=156a72175220, datestamp=1672795275 (Jan 04 2023 01:21:15)
+0079.507 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.507 (0) Examining (for databases) backup set with group_id=0, nonce=228206abb603, datestamp=1672708877 (Jan 03 2023 01:21:17)
+0079.507 (0) 1672708877: db: this set includes a database (backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-db.gz); db count is now 2
+0079.507 (0) 1672708877: db: over retain limit (2); will delete this database
+0079.508 (0) Delete file: backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-db.gz, service=ftp
+0079.569 (0) FTP: delete: succeeded (rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-db.gz)
+0079.571 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0079.572 (0) Number of backup sets in history: 3; groups (files): 1
+0079.573 (0) Examining (for files) backup set with nonce=505e6bc6f624, datestamp=1672881679 (Jan 05 2023 01:21:19)
+0079.573 (0) This backup set is the backup set just made, so will not be deleted.
+0079.573 (0) This backup set is the backup set just made, so will not be deleted.
+0079.573 (0) This backup set is the backup set just made, so will not be deleted.
+0079.573 (0) This backup set is the backup set just made, so will not be deleted.
+0079.573 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.574 (0) Examining (for files) backup set with nonce=156a72175220, datestamp=1672795275 (Jan 04 2023 01:21:15)
+0079.574 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.574 (0) Examining (for files) backup set with nonce=228206abb603, datestamp=1672708877 (Jan 03 2023 01:21:17)
+0079.574 (0) plugins: over retain limit (2); will delete this file entity
+0079.574 (0) themes: over retain limit (2); will delete this file entity
+0079.574 (0) uploads: over retain limit (2); will delete this file entity
+0079.574 (0) others: over retain limit (2); will delete this file entity
+0079.574 (0) Delete file: backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-plugins.zip, service=ftp
+0079.575 (0) Delete file: backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-themes.zip, service=ftp
+0079.576 (0) Delete file: backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-uploads.zip, service=ftp
+0079.576 (0) Delete file: backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-others.zip, service=ftp
+0079.628 (0) FTP: delete: succeeded (rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-plugins.zip)
+0079.647 (0) FTP: delete: succeeded (rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-themes.zip)
+0079.691 (0) FTP: delete: succeeded (rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-uploads.zip)
+0079.710 (0) FTP: delete: succeeded (rclone/gmedia/Backups/OpenClassroomsProjects/chalets-et-caviar/backup_2023-01-03-0121_Chalets_et_Caviar_228206abb603-others.zip)
+0079.712 (0) This backup set is now empty; will remove from history
+0079.713 (0) Deleting log file (log.228206abb603.txt)
+0079.714 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0079.734 (0) Resume backup (505e6bc6f624, 0): finish run
+0079.737 (0) Decremented the semaphore (fd) by 1
+0079.738 (0) Semaphore (fd) unlocked
+0079.739 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0079.742 (0) The backup apparently succeeded and is now complete
+0079.743 (0) No email will/can be sent - the user has not configured an email address.
+0079.744 (0) La sauvegarde a apparemment réussi et est maintenant terminée
