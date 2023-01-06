@@ -313,5 +313,25 @@ div.eael-reading-progress-wrap div.eael-reading-progress div.eael-reading-progre
 
 li.slick-active button {
   background-color: #F6C7A5!important;;
+}
+
+.contact-form-submit-btn {
+	  font-family: "Lato", Sans-serif!important;
+    font-weight: 500!important;
+    fill: #000000!important;
+    color: #000000!important;
+    background-color: #FFDA39!important;
+    border-style: solid!important;
+    border-width: 1px 1px 1px 1px!important;
+    border-color: #FFDA39!important;
+    border-radius: 100px 100px 100px 100px!important;
+    box-shadow: 0px 4px 9px -4px #f6c7a5!important;
+    padding: 16px 35px 16px 35px!important;
+}
+
+.contact-form-submit-btn:hover {
+	  color: #FFFFFF!important;
+    background-color: #FCCE00!important;
+    border-color: #FFD100!important;
 }</style>
 <!-- end Simple Custom CSS and JS -->
